@@ -1,0 +1,4667 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://www.shodan.io/domain/line.me -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Shodan Search Engine</title>
+
+<meta name="description" content="Search Engine for the Internet of Things">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link href="./Shodan Search Engine_files/wire.css" media="(prefers-color-scheme: light)" rel="stylesheet">
+<link href="./Shodan Search Engine_files/wire(1).css" media="(prefers-color-scheme: dark)" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.shodan.io/static/img/favicon-60c1b1cd.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://www.shodan.io/static/img/apple-touch-icon-192-4eb04af5.png">
+<link rel="search" href="https://www.shodan.io/static/opensearch-07a9aa48.xml" type="application/opensearchdescription+xml" title="Shodan">
+<script defer="" src="./Shodan Search Engine_files/b7e79643d9.js.download" crossorigin="anonymous"></script><script referrerpolicy="strict-origin" id="fa-main" data-auto-a11y="true" data-auto-fetch-svg="" data-fetch-svg-from="https://ka-p.fontawesome.com/releases/v5.15.4/svgs" data-fetch-uploaded-svg-from="https://kit-uploads.fontawesome.com">!function(){"use strict";function r(t){return(r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}function i(t,e){for(var n=0;n<e.length;n++){var a=e[n];a.enumerable=a.enumerable||!1,a.configurable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(t,a.key,a)}}function u(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}function $(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{},a=Object.keys(n);"function"==typeof Object.getOwnPropertySymbols&&(a=a.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),a.forEach(function(t){u(e,t,n[t])})}return e}function h(t,e){return function(t){if(Array.isArray(t))return t}(t)||function(t,e){var n=[],a=!0,r=!1,i=void 0;try{for(var o,c=t[Symbol.iterator]();!(a=(o=c.next()).done)&&(n.push(o.value),!e||n.length!==e);a=!0);}catch(t){r=!0,i=t}finally{try{a||null==c.return||c.return()}finally{if(r)throw i}}return n}(t,e)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}()}function d(t){return function(t){if(Array.isArray(t)){for(var e=0,n=new Array(t.length);e<t.length;e++)n[e]=t[e];return n}}(t)||function(t){if(Symbol.iterator in Object(t)||"[object Arguments]"===Object.prototype.toString.call(t))return Array.from(t)}(t)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance")}()}var t=function(){},e={},n={},a=null,o={mark:t,measure:t};try{"undefined"!=typeof window&&(e=window),"undefined"!=typeof document&&(n=document),"undefined"!=typeof MutationObserver&&(a=MutationObserver),"undefined"!=typeof performance&&(o=performance)}catch(t){}var c=(e.navigator||{}).userAgent,s=void 0===c?"":c,v=e,b=n,l=a,f=o,m=!!v.document,p=!!b.documentElement&&!!b.head&&"function"==typeof b.addEventListener&&"function"==typeof b.createElement,k=~s.indexOf("MSIE")||~s.indexOf("Trident/"),g="___FONT_AWESOME___",A=16,y="fa",w="svg-inline--fa",tt="data-fa-i2svg",x="data-fa-pseudo-element",S="data-fa-pseudo-element-pending",C="data-prefix",O="data-icon",M="fontawesome-i2svg",N="async",P=["HTML","HEAD","STYLE","SCRIPT"],E=function(){try{return!0}catch(t){return!1}}(),z={fas:"solid",far:"regular",fal:"light",fad:"duotone",fab:"brands",fak:"kit",fa:"solid"},L={solid:"fas",regular:"far",light:"fal",duotone:"fad",brands:"fab",kit:"fak"},j="fa-layers-text",R=/Font Awesome ([5 ]*)(Solid|Regular|Light|Duotone|Brands|Free|Pro|Kit).*/i,F={900:"fas",400:"far",normal:"far",300:"fal"},I=[1,2,3,4,5,6,7,8,9,10],T=I.concat([11,12,13,14,15,16,17,18,19,20]),_=["class","data-prefix","data-icon","data-fa-transform","data-fa-mask"],U={GROUP:"group",SWAP_OPACITY:"swap-opacity",PRIMARY:"primary",SECONDARY:"secondary"},H=["xs","sm","lg","fw","ul","li","border","pull-left","pull-right","spin","pulse","rotate-90","rotate-180","rotate-270","flip-horizontal","flip-vertical","flip-both","stack","stack-1x","stack-2x","inverse","layers","layers-text","layers-counter",U.GROUP,U.SWAP_OPACITY,U.PRIMARY,U.SECONDARY].concat(I.map(function(t){return"".concat(t,"x")})).concat(T.map(function(t){return"w-".concat(t)})),Y=v.FontAwesomeConfig||{};if(b&&"function"==typeof b.querySelector){var D=[["data-family-prefix","familyPrefix"],["data-replacement-class","replacementClass"],["data-auto-replace-svg","autoReplaceSvg"],["data-auto-add-css","autoAddCss"],["data-auto-a11y","autoA11y"],["data-search-pseudo-elements","searchPseudoElements"],["data-observe-mutations","observeMutations"],["data-mutate-approach","mutateApproach"],["data-keep-original-source","keepOriginalSource"],["data-measure-performance","measurePerformance"],["data-show-missing-icons","showMissingIcons"]];D.push(["data-auto-fetch-svg","autoFetchSvg"],["data-fetch-svg-from","fetchSvgFrom"],["data-fetch-uploaded-svg-from","fetchUploadedSvgFrom"]),D.forEach(function(t){var e,n=h(t,2),a=n[0],r=n[1],i=""===(e=function(t){var e=b.querySelector("script["+t+"]");if(e)return e.getAttribute(t)}(a))||"false"!==e&&("true"===e||e);null!=i&&(Y[r]=i)})}var V={familyPrefix:y,replacementClass:w,autoReplaceSvg:!0,autoAddCss:!0,autoA11y:!0,searchPseudoElements:!1,observeMutations:!0,mutateApproach:"async",keepOriginalSource:!0,measurePerformance:!1,showMissingIcons:!0,autoFetchSvg:!1,fetchSvgFrom:null,fetchUploadedSvgFrom:null},q=$({},V,Y);q.autoReplaceSvg||(q.observeMutations=!1);var W=/\/js\/.*\.js.*/,X='Manually set config.fetchSvgFrom = "URL" or use <script data-fetch-svg-from="URL" ...> to explicitly configure.';if(q.autoFetchSvg&&!q.fetchSvgFrom&&b&&b.currentScript){var G=b.currentScript.getAttribute("src");-1<G.search(W)&&(E||console.info("Font Awesome SVG Auto-fetching URL has been determined using document.currentScript. This features is not supported in any version of Internet Explorer. ".concat(X)),q.fetchSvgFrom=G.replace(W,"/svgs"))}if(q.fetchSvgFrom){var K=b.createElement("a");K.href=q.fetchSvgFrom,q.fetchSvgFrom=K.href}!q.autoFetchSvg||q.fetchSvgFrom||E||(console.error("Disabling Font Awesome auto-fetching of SVG icons (it was enabled) because we could not guess the correct URL to load them from. ".concat(X)),q.autoFetchSvg=!1);var et=$({},q);v.FontAwesomeConfig=et;var B=v||{};B[g]||(B[g]={}),B[g].styles||(B[g].styles={}),B[g].hooks||(B[g].hooks={}),B[g].shims||(B[g].shims=[]);var J=B[g],Q=[],Z=!1;function nt(t){p&&(Z?setTimeout(t,0):Q.push(t))}p&&((Z=(b.documentElement.doScroll?/^loaded|^c/:/^loaded|^i|^c/).test(b.readyState))||b.addEventListener("DOMContentLoaded",function t(){b.removeEventListener("DOMContentLoaded",t),Z=1,Q.map(function(t){return t()})}));var at,rt="pending",it="settled",ot="fulfilled",ct="rejected",st=function(){},lt="undefined"!=typeof global&&void 0!==global.process&&"function"==typeof global.process.emit,ft="undefined"==typeof setImmediate?setTimeout:setImmediate,ut=[];function dt(){for(var t=0;t<ut.length;t++)ut[t][0](ut[t][1]);at=!(ut=[])}function mt(t,e){ut.push([t,e]),at||(at=!0,ft(dt,0))}function ht(t){var e=t.owner,n=e._state,a=e._data,r=t[n],i=t.then;if("function"==typeof r){n=ot;try{a=r(a)}catch(t){bt(i,t)}}pt(i,a)||(n===ot&&gt(i,a),n===ct&&bt(i,a))}function pt(e,n){var a;try{if(e===n)throw new TypeError("A promises callback cannot return that same promise.");if(n&&("function"==typeof n||"object"===r(n))){var t=n.then;if("function"==typeof t)return t.call(n,function(t){a||(a=!0,n===t?vt(e,t):gt(e,t))},function(t){a||(a=!0,bt(e,t))}),!0}}catch(t){return a||bt(e,t),!0}return!1}function gt(t,e){t!==e&&pt(t,e)||vt(t,e)}function vt(t,e){t._state===rt&&(t._state=it,t._data=e,mt(wt,t))}function bt(t,e){t._state===rt&&(t._state=it,t._data=e,mt(xt,t))}function yt(t){t._then=t._then.forEach(ht)}function wt(t){t._state=ot,yt(t)}function xt(t){t._state=ct,yt(t),!t._handled&&lt&&global.process.emit("unhandledRejection",t._data,t)}function kt(t){global.process.emit("rejectionHandled",t)}function At(t){if("function"!=typeof t)throw new TypeError("Promise resolver "+t+" is not a function");if(this instanceof At==!1)throw new TypeError("Failed to construct 'Promise': Please use the 'new' operator, this object constructor cannot be called as a function.");this._then=[],function(t,e){function n(t){bt(e,t)}try{t(function(t){gt(e,t)},n)}catch(t){n(t)}}(t,this)}At.prototype={constructor:At,_state:rt,_then:null,_data:void 0,_handled:!1,then:function(t,e){var n={owner:this,then:new this.constructor(st),fulfilled:t,rejected:e};return!e&&!t||this._handled||(this._handled=!0,this._state===ct&&lt&&mt(kt,this)),this._state===ot||this._state===ct?mt(ht,n):this._then.push(n),n.then},catch:function(t){return this.then(null,t)}},At.all=function(c){if(!Array.isArray(c))throw new TypeError("You must pass an array to Promise.all().");return new At(function(n,t){var a=[],r=0;function e(e){return r++,function(t){a[e]=t,--r||n(a)}}for(var i,o=0;o<c.length;o++)(i=c[o])&&"function"==typeof i.then?i.then(e(o),t):a[o]=i;r||n(a)})},At.race=function(r){if(!Array.isArray(r))throw new TypeError("You must pass an array to Promise.race().");return new At(function(t,e){for(var n,a=0;a<r.length;a++)(n=r[a])&&"function"==typeof n.then?n.then(t,e):t(n)})},At.resolve=function(e){return e&&"object"===r(e)&&e.constructor===At?e:new At(function(t){t(e)})},At.reject=function(n){return new At(function(t,e){e(n)})};var St="function"==typeof Promise?Promise:At,Ct=A,Ot={size:16,x:0,y:0,rotate:0,flipX:!1,flipY:!1};function Mt(t){if(t&&p){var e=b.createElement("style");e.setAttribute("type","text/css"),e.innerHTML=t;for(var n=b.head.childNodes,a=null,r=n.length-1;-1<r;r--){var i=n[r],o=(i.tagName||"").toUpperCase();-1<["STYLE","LINK"].indexOf(o)&&(a=i)}return b.head.insertBefore(e,a),t}}var Nt="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";function Pt(){for(var t=12,e="";0<t--;)e+=Nt[62*Math.random()|0];return e}function Et(t){for(var e=[],n=(t||[]).length>>>0;n--;)e[n]=t[n];return e}function zt(t){return t.classList?Et(t.classList):(t.getAttribute("class")||"").split(" ").filter(function(t){return t})}function Lt(t,e){var n,a=e.split("-"),r=a[0],i=a.slice(1).join("-");return r!==t||""===i||(n=i,~H.indexOf(n))?null:i}function jt(t){return"".concat(t).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/'/g,"&#39;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}function Rt(n){return Object.keys(n||{}).reduce(function(t,e){return t+"".concat(e,": ").concat(n[e],";")},"")}function Ft(t){return t.size!==Ot.size||t.x!==Ot.x||t.y!==Ot.y||t.rotate!==Ot.rotate||t.flipX||t.flipY}function It(t){var e=t.transform,n=t.containerWidth,a=t.iconWidth,r={transform:"translate(".concat(n/2," 256)")},i="translate(".concat(32*e.x,", ").concat(32*e.y,") "),o="scale(".concat(e.size/16*(e.flipX?-1:1),", ").concat(e.size/16*(e.flipY?-1:1),") "),c="rotate(".concat(e.rotate," 0 0)");return{outer:r,inner:{transform:"".concat(i," ").concat(o," ").concat(c)},path:{transform:"translate(".concat(a/2*-1," -256)")}}}var Tt={x:0,y:0,width:"100%",height:"100%"};function _t(t){var e=!(1<arguments.length&&void 0!==arguments[1])||arguments[1];return t.attributes&&(t.attributes.fill||e)&&(t.attributes.fill="black"),t}function Ut(t){var e=t.icons,n=e.main,a=e.mask,r=t.prefix,i=t.iconName,o=t.transform,c=t.symbol,s=t.title,l=t.maskId,f=t.titleId,u=t.extra,d=t.watchable,m=void 0!==d&&d,h=a.found?a:n,p=h.width,g=h.height,v="fak"===r,b=v?"":"fa-w-".concat(Math.ceil(p/g*16)),y=[et.replacementClass,i?"".concat(et.familyPrefix,"-").concat(i):"",b].filter(function(t){return-1===u.classes.indexOf(t)}).filter(function(t){return""!==t||!!t}).concat(u.classes).join(" "),w={children:[],attributes:$({},u.attributes,{"data-prefix":r,"data-icon":i,class:y,role:u.attributes.role||"img",xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 ".concat(p," ").concat(g)})},x=v&&!~u.classes.indexOf("fa-fw")?{width:"".concat(p/g*16*.0625,"em")}:{};m&&(w.attributes[tt]=""),s&&w.children.push({tag:"title",attributes:{id:w.attributes["aria-labelledby"]||"title-".concat(f||Pt())},children:[s]});var k,A,S,C,O,M,N,P,E,z,L,j,R,F,I,T,_,U,H,Y,D,V,q,W,X,G,K,B=$({},w,{prefix:r,iconName:i,main:n,mask:a,maskId:l,transform:o,symbol:c,styles:$({},x,u.styles)}),J=a.found&&n.found?(S=(k=B).children,C=k.attributes,O=k.main,M=k.mask,N=k.maskId,P=k.transform,E=O.width,z=O.icon,L=M.width,j=M.icon,R=It({transform:P,containerWidth:L,iconWidth:E}),F={tag:"rect",attributes:$({},Tt,{fill:"white"})},I=z.children?{children:z.children.map(_t)}:{},T={tag:"g",attributes:$({},R.inner),children:[_t($({tag:z.tag,attributes:$({},z.attributes,R.path)},I))]},_={tag:"g",attributes:$({},R.outer),children:[T]},U="mask-".concat(N||Pt()),H="clip-".concat(N||Pt()),Y={tag:"mask",attributes:$({},Tt,{id:U,maskUnits:"userSpaceOnUse",maskContentUnits:"userSpaceOnUse"}),children:[F,_]},D={tag:"defs",children:[{tag:"clipPath",attributes:{id:H},children:(A=j,"g"===A.tag?A.children:[A])},Y]},S.push(D,{tag:"rect",attributes:$({fill:"currentColor","clip-path":"url(#".concat(H,")"),mask:"url(#".concat(U,")")},Tt)}),{children:S,attributes:C}):function(t){var e=t.children,n=t.attributes,a=t.main,r=t.transform,i=Rt(t.styles);if(0<i.length&&(n.style=i),Ft(r)){var o=It({transform:r,containerWidth:a.width,iconWidth:a.width});e.push({tag:"g",attributes:$({},o.outer),children:[{tag:"g",attributes:$({},o.inner),children:[{tag:a.icon.tag,children:a.icon.children,attributes:$({},a.icon.attributes,o.path)}]}]})}else e.push(a.icon);return{children:e,attributes:n}}(B),Q=J.children,Z=J.attributes;return B.children=Q,B.attributes=Z,c?(q=(V=B).prefix,W=V.iconName,X=V.children,G=V.attributes,K=V.symbol,[{tag:"svg",attributes:{style:"display: none;"},children:[{tag:"symbol",attributes:$({},G,{id:!0===K?"".concat(q,"-").concat(et.familyPrefix,"-").concat(W):K}),children:X}]}]):function(t){var e=t.children,n=t.main,a=t.mask,r=t.attributes,i=t.styles,o=t.transform;if(Ft(o)&&n.found&&!a.found){var c=n.width/n.height/2,s=.5;r.style=Rt($({},i,{"transform-origin":"".concat(c+o.x/16,"em ").concat(s+o.y/16,"em")}))}return[{tag:"svg",attributes:r,children:e}]}(B)}function Ht(t){var e=t.content,n=t.width,a=t.height,r=t.transform,i=t.title,o=t.extra,c=t.watchable,s=void 0!==c&&c,l=$({},o.attributes,i?{title:i}:{},{class:o.classes.join(" ")});s&&(l[tt]="");var f,u,d,m,h,p,g,v,b,y=$({},o.styles);Ft(r)&&(y.transform=(u=(f={transform:r,startCentered:!0,width:n,height:a}).transform,d=f.width,m=void 0===d?A:d,h=f.height,p=void 0===h?A:h,g=f.startCentered,b="",b+=(v=void 0!==g&&g)&&k?"translate(".concat(u.x/Ct-m/2,"em, ").concat(u.y/Ct-p/2,"em) "):v?"translate(calc(-50% + ".concat(u.x/Ct,"em), calc(-50% + ").concat(u.y/Ct,"em)) "):"translate(".concat(u.x/Ct,"em, ").concat(u.y/Ct,"em) "),b+="scale(".concat(u.size/Ct*(u.flipX?-1:1),", ").concat(u.size/Ct*(u.flipY?-1:1),") "),b+="rotate(".concat(u.rotate,"deg) ")),y["-webkit-transform"]=y.transform);var w=Rt(y);0<w.length&&(l.style=w);var x=[];return x.push({tag:"span",attributes:l,children:[e]}),i&&x.push({tag:"span",attributes:{class:"sr-only"},children:[i]}),x}var Yt=function(){},Dt=et.measurePerformance&&f&&f.mark&&f.measure?f:{mark:Yt,measure:Yt},Vt='FA "5.15.4"',qt=function(t){Dt.mark("".concat(Vt," ").concat(t," ends")),Dt.measure("".concat(Vt," ").concat(t),"".concat(Vt," ").concat(t," begins"),"".concat(Vt," ").concat(t," ends"))},Wt={begin:function(t){return Dt.mark("".concat(Vt," ").concat(t," begins")),function(){return qt(t)}},end:qt},Xt=function(t,e,n,a){var r,i,o,c,s,l=Object.keys(t),f=l.length,u=void 0!==a?(c=e,s=a,function(t,e,n,a){return c.call(s,t,e,n,a)}):e;for(o=void 0===n?(r=1,t[l[0]]):(r=0,n);r<f;r++)o=u(o,t[i=l[r]],i,t);return o};function Gt(t){for(var e="",n=0;n<t.length;n++){e+=("000"+t.charCodeAt(n).toString(16)).slice(-4)}return e}function Kt(t){if(1!==t.length)return!1;var e,n,a,r,i,o=(n=0,r=(e=t).length,55296<=(i=e.charCodeAt(n))&&i<=56319&&n+1<r&&56320<=(a=e.charCodeAt(n+1))&&a<=57343?1024*(i-55296)+a-56320+65536:i);return 57344<=o&&o<=63743}function Bt(t,a){var e=(2<arguments.length&&void 0!==arguments[2]?arguments[2]:{}).skipHooks,n=void 0!==e&&e,r=Object.keys(a).reduce(function(t,e){var n=a[e];return!!n.icon?t[n.iconName]=n.icon:t[e]=n,t},{});"function"!=typeof J.hooks.addPack||n?J.styles[t]=$({},J.styles[t]||{},r):J.hooks.addPack(t,r),"fas"===t&&Bt("fa",a)}var Jt=/viewBox="0 0 ([0-9]+) ([0-9]+)"/,Qt=/path d="([^"]+)"/,Zt=/path d="([^"]+)".*path d="([^"]+)"/;var $t=J.styles,te=J.shims,ee={},ne={},ae={};function re(t,e,n){var a,r,i,o,c,s,l=(i=r=null,o=(a=n).match(Jt),c=a.match(Qt),(s=a.match(Zt))?i=[s[1],s[2]]:c&&(i=c[1]),o&&i&&(r=[parseInt(o[1],10),parseInt(o[2],10),[],null,i]),r);l&&!Kt(e)&&(Bt(t,u({},e,l),{skipHooks:!0}),se()),ie[t][e].map(function(t){t(l)}),delete ie[t][e]}var ie={};function oe(t,e){return Kt(t)?"unicode/".concat(Gt(t)).concat(void 0===e?"":"-".concat(e),".svg"):"".concat(t).concat(void 0===e?"":"-".concat(e),".svg")}var ce=function(r,i){var t=2<arguments.length&&void 0!==arguments[2]?arguments[2]:{},o="fak"===r,e=t.url,c=void 0===e?et.fetchSvgFrom:e,n=t.uploadedSvgUrl,s=void 0===n?et.fetchUploadedSvgFrom:n,l=t.token,f=t.version;return ie[r]&&ie[r][i]||(ie[r]=$({},ie[r]||{},u({},i,[]))),new St(function(e,t){if(!c)return t(new Error("No URL available to fetch SVGs from. Specify in params or by setting config.fetchSvgFrom"));if(o&&!s)return t(new Error("No URL available to fetch kit SVGs from. Specify in params or by setting config.fetchKitSvgFrom"));var n=o?"".concat(s,"/").concat(l,"/icons/").concat(oe(i,f)):"".concat(c,"/").concat(z[r],"/").concat(oe(i));if(l&&(n="".concat(n,"?token=").concat(l)),J.styles[r]&&J.styles[r][i])return e(J.styles[r][i]);if(ie[r][i].push(function(t){e(t)}),1===ie[r][i].length)if("function"==typeof fetch)fetch(n,{mode:"cors"}).then(function(t){return t.text()}).then(function(t){re(r,i,t)}).catch(function(){re(r,i,"")});else if("function"==typeof XMLHttpRequest){var a=new XMLHttpRequest;a.addEventListener("loadend",function(){this.responseText?re(r,i,this.responseText):re(r,i,"")}),a.open("GET",n),a.send()}else re(r,i,"")})},se=function(){var t=function(a){return Xt($t,function(t,e,n){return t[n]=Xt(e,a,{}),t},{})};ee=t(function(t,e,n){return e[3]&&(t[e[3]]=n),t}),ne=t(function(e,t,n){var a=t[2];return e[n]=n,a.forEach(function(t){e[t]=n}),e});var i="far"in $t;ae=Xt(te,function(t,e){var n=e[0],a=e[1],r=e[2];return"far"!==a||i||(a="fas"),t[n]={prefix:a,iconName:r},t},{})};function le(t,e){return(ee[t]||{})[e]}se();var fe=J.styles,ue=function(){return{prefix:null,iconName:null,rest:[]}};function de(t){return t.reduce(function(t,e){var n=Lt(et.familyPrefix,e);if(fe[e])t.prefix=e;else if(et.autoFetchSvg&&-1<Object.keys(z).indexOf(e))t.prefix=e;else if(n){var a="fa"===t.prefix?ae[n]||{prefix:null,iconName:null}:{};t.iconName=a.iconName||n,t.prefix=a.prefix||t.prefix}else e!==et.replacementClass&&0!==e.indexOf("fa-w-")&&t.rest.push(e);return t},ue())}function me(t,e,n){if(t&&t[e]&&t[e][n])return{prefix:e,iconName:n,icon:t[e][n]}}function he(t){var n,e=t.tag,a=t.attributes,r=void 0===a?{}:a,i=t.children,o=void 0===i?[]:i;return"string"==typeof t?jt(t):"<".concat(e," ").concat((n=r,Object.keys(n||{}).reduce(function(t,e){return t+"".concat(e,'="').concat(jt(n[e]),'" ')},"").trim()),">").concat(o.map(he).join(""),"</").concat(e,">")}var pe=function(){};function ge(t){return"string"==typeof(t.getAttribute?t.getAttribute(tt):null)}var ve={replace:function(t){var e=t[0],n=t[1].map(function(t){return he(t)}).join("\n");if(e.parentNode&&e.outerHTML)e.outerHTML=n+(et.keepOriginalSource&&"svg"!==e.tagName.toLowerCase()?"\x3c!-- ".concat(e.outerHTML," Font Awesome fontawesome.com --\x3e"):"");else if(e.parentNode){var a=document.createElement("span");e.parentNode.replaceChild(a,e),a.outerHTML=n}},nest:function(t){var e=t[0],n=t[1];if(~zt(e).indexOf(et.replacementClass))return ve.replace(t);var a=new RegExp("".concat(et.familyPrefix,"-.*"));delete n[0].attributes.style,delete n[0].attributes.id;var r=n[0].attributes.class.split(" ").reduce(function(t,e){return e===et.replacementClass||e.match(a)?t.toSvg.push(e):t.toNode.push(e),t},{toNode:[],toSvg:[]});n[0].attributes.class=r.toSvg.join(" ");var i=n.map(function(t){return he(t)}).join("\n");e.setAttribute("class",r.toNode.join(" ")),e.setAttribute(tt,""),e.innerHTML=i}};function be(t){t()}function ye(n,t){var a="function"==typeof t?t:pe;if(0===n.length)a();else{var e=be;et.mutateApproach===N&&(e=v.requestAnimationFrame||be),e(function(){var t=!0===et.autoReplaceSvg?ve.replace:ve[et.autoReplaceSvg]||ve.replace,e=Wt.begin("mutate");n.map(t),e(),a()})}}var we=!1;function xe(){we=!1}var ke=null;function Ae(t){if(l&&et.observeMutations){var r=t.treeCallback,i=t.nodeCallback,o=t.pseudoElementsCallback,e=t.observeMutationsRoot,n=void 0===e?b:e;ke=new l(function(t){we||Et(t).forEach(function(t){if("childList"===t.type&&0<t.addedNodes.length&&!ge(t.addedNodes[0])&&(et.searchPseudoElements&&o(t.target),r(t.target)),"attributes"===t.type&&t.target.parentNode&&et.searchPseudoElements&&o(t.target.parentNode),"attributes"===t.type&&ge(t.target)&&~_.indexOf(t.attributeName))if("class"===t.attributeName){var e=de(zt(t.target)),n=e.prefix,a=e.iconName;n&&t.target.setAttribute("data-prefix",n),a&&t.target.setAttribute("data-icon",a)}else i(t.target)})}),p&&ke.observe(n,{childList:!0,attributes:!0,characterData:!0,subtree:!0})}}function Se(t){var e,n,a=t.getAttribute("data-prefix"),r=t.getAttribute("data-icon"),i=void 0!==t.innerText?t.innerText.trim():"",o=de(zt(t));return a&&r&&(o.prefix=a,o.iconName=r),o.prefix&&1<i.length?o.iconName=(e=o.prefix,n=t.innerText,(ne[e]||{})[n]):o.prefix&&1===i.length&&(o.iconName=le(o.prefix,Gt(t.innerText))),o}var Ce=function(t){var e={size:16,x:0,y:0,flipX:!1,flipY:!1,rotate:0};return t?t.toLowerCase().split(" ").reduce(function(t,e){var n=e.toLowerCase().split("-"),a=n[0],r=n.slice(1).join("-");if(a&&"h"===r)return t.flipX=!0,t;if(a&&"v"===r)return t.flipY=!0,t;if(r=parseFloat(r),isNaN(r))return t;switch(a){case"grow":t.size=t.size+r;break;case"shrink":t.size=t.size-r;break;case"left":t.x=t.x-r;break;case"right":t.x=t.x+r;break;case"up":t.y=t.y-r;break;case"down":t.y=t.y+r;break;case"rotate":t.rotate=t.rotate+r}return t},e):e};function Oe(t){var e,n,a,r,i,o,c,s,l=Se(t),f=l.iconName,u=l.prefix,d=l.rest,m=(e=t.getAttribute("style"),n=[],e&&(n=e.split(";").reduce(function(t,e){var n=e.split(":"),a=n[0],r=n.slice(1);return a&&0<r.length&&(t[a]=r.join(":").trim()),t},{})),n),h=Ce(t.getAttribute("data-fa-transform")),p=null!==(a=t.getAttribute("data-fa-symbol"))&&(""===a||a),g=(i=Et((r=t).attributes).reduce(function(t,e){return"class"!==t.name&&"style"!==t.name&&(t[e.name]=e.value),t},{}),o=r.getAttribute("title"),c=r.getAttribute("data-fa-title-id"),et.autoA11y&&(o?i["aria-labelledby"]="".concat(et.replacementClass,"-title-").concat(c||Pt()):(i["aria-hidden"]="true",i.focusable="false")),i),v=(s=t.getAttribute("data-fa-mask"))?de(s.split(" ").map(function(t){return t.trim()})):ue();return{iconName:f,title:t.getAttribute("title"),titleId:t.getAttribute("data-fa-title-id"),prefix:u,transform:h,symbol:p,mask:v,maskId:t.getAttribute("data-fa-mask-id"),extra:{classes:d,styles:m,attributes:g}}}function Me(t){this.name="MissingIcon",this.message=t||"Icon unavailable",this.stack=(new Error).stack}(Me.prototype=Object.create(Error.prototype)).constructor=Me;var Ne={fill:"currentColor"},Pe={attributeType:"XML",repeatCount:"indefinite",dur:"2s"},Ee={tag:"path",attributes:$({},Ne,{d:"M156.5,447.7l-12.6,29.5c-18.7-9.5-35.9-21.2-51.5-34.9l22.7-22.7C127.6,430.5,141.5,440,156.5,447.7z M40.6,272H8.5 c1.4,21.2,5.4,41.7,11.7,61.1L50,321.2C45.1,305.5,41.8,289,40.6,272z M40.6,240c1.4-18.8,5.2-37,11.1-54.1l-29.5-12.6 C14.7,194.3,10,216.7,8.5,240H40.6z M64.3,156.5c7.8-14.9,17.2-28.8,28.1-41.5L69.7,92.3c-13.7,15.6-25.5,32.8-34.9,51.5 L64.3,156.5z M397,419.6c-13.9,12-29.4,22.3-46.1,30.4l11.9,29.8c20.7-9.9,39.8-22.6,56.9-37.6L397,419.6z M115,92.4 c13.9-12,29.4-22.3,46.1-30.4l-11.9-29.8c-20.7,9.9-39.8,22.6-56.8,37.6L115,92.4z M447.7,355.5c-7.8,14.9-17.2,28.8-28.1,41.5 l22.7,22.7c13.7-15.6,25.5-32.9,34.9-51.5L447.7,355.5z M471.4,272c-1.4,18.8-5.2,37-11.1,54.1l29.5,12.6 c7.5-21.1,12.2-43.5,13.6-66.8H471.4z M321.2,462c-15.7,5-32.2,8.2-49.2,9.4v32.1c21.2-1.4,41.7-5.4,61.1-11.7L321.2,462z M240,471.4c-18.8-1.4-37-5.2-54.1-11.1l-12.6,29.5c21.1,7.5,43.5,12.2,66.8,13.6V471.4z M462,190.8c5,15.7,8.2,32.2,9.4,49.2h32.1 c-1.4-21.2-5.4-41.7-11.7-61.1L462,190.8z M92.4,397c-12-13.9-22.3-29.4-30.4-46.1l-29.8,11.9c9.9,20.7,22.6,39.8,37.6,56.9 L92.4,397z M272,40.6c18.8,1.4,36.9,5.2,54.1,11.1l12.6-29.5C317.7,14.7,295.3,10,272,8.5V40.6z M190.8,50 c15.7-5,32.2-8.2,49.2-9.4V8.5c-21.2,1.4-41.7,5.4-61.1,11.7L190.8,50z M442.3,92.3L419.6,115c12,13.9,22.3,29.4,30.5,46.1 l29.8-11.9C470,128.5,457.3,109.4,442.3,92.3z M397,92.4l22.7-22.7c-15.6-13.7-32.8-25.5-51.5-34.9l-12.6,29.5 C370.4,72.1,384.4,81.5,397,92.4z"})},ze=$({},Pe,{attributeName:"opacity"}),Le={tag:"g",children:[Ee,{tag:"circle",attributes:$({},Ne,{cx:"256",cy:"364",r:"28"}),children:[{tag:"animate",attributes:$({},Pe,{attributeName:"r",values:"28;14;28;28;14;28;"})},{tag:"animate",attributes:$({},ze,{values:"1;0;1;1;0;1;"})}]},{tag:"path",attributes:$({},Ne,{opacity:"1",d:"M263.7,312h-16c-6.6,0-12-5.4-12-12c0-71,77.4-63.9,77.4-107.8c0-20-17.8-40.2-57.4-40.2c-29.1,0-44.3,9.6-59.2,28.7 c-3.9,5-11.1,6-16.2,2.4l-13.1-9.2c-5.6-3.9-6.9-11.8-2.6-17.2c21.2-27.2,46.4-44.7,91.2-44.7c52.3,0,97.4,29.8,97.4,80.2 c0,67.6-77.4,63.5-77.4,107.8C275.7,306.6,270.3,312,263.7,312z"}),children:[{tag:"animate",attributes:$({},ze,{values:"1;0;0;0;0;1;"})}]},{tag:"path",attributes:$({},Ne,{opacity:"0",d:"M232.5,134.5l7,168c0.3,6.4,5.6,11.5,12,11.5h9c6.4,0,11.7-5.1,12-11.5l7-168c0.3-6.8-5.2-12.5-12-12.5h-23 C237.7,122,232.2,127.7,232.5,134.5z"}),children:[{tag:"animate",attributes:$({},ze,{values:"0;0;1;1;0;0;"})}]}]},je=J.styles;function Re(t){var e=t[0],n=t[1],a=h(t.slice(4),1)[0];return{found:!0,width:e,height:n,icon:Array.isArray(a)?{tag:"g",attributes:{class:"".concat(et.familyPrefix,"-").concat(U.GROUP)},children:[{tag:"path",attributes:{class:"".concat(et.familyPrefix,"-").concat(U.SECONDARY),fill:"currentColor",d:a[0]}},{tag:"path",attributes:{class:"".concat(et.familyPrefix,"-").concat(U.PRIMARY),fill:"currentColor",d:a[1]}}]}:{tag:"path",attributes:{fill:"currentColor",d:a}}}}function Fe(o,c){return new St(function(n,t){var a={found:!1,width:512,height:512,icon:Le};if(o&&c&&je[c]&&je[c][o]){var e=je[c][o];return n(Re(e))}var r={},i=function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{},e=1<arguments.length?arguments[1]:void 0;if(e&&Kt(e)){if(t&&t.iconUploads){var n=t.iconUploads,a=Object.keys(n).find(function(t){return n[t]&&n[t].u&&n[t].u===Gt(e)});if(a)return n[a].v}}else if(t&&t.iconUploads&&t.iconUploads[e]&&t.iconUploads[e].v)return t.iconUploads[e].v}(v.FontAwesomeKitConfig,o);if(v.FontAwesomeKitConfig&&v.FontAwesomeKitConfig.token&&(r.token=v.FontAwesomeKitConfig.token),"fak"===c&&(r.version=i),o&&c&&et.autoFetchSvg)return ce(c,o,$({},r)).then(function(t){var e={};t&&(e=Re(t)),n($({},a,e))}).catch(t);o&&c&&!et.showMissingIcons?t(new Me("Icon is missing for prefix ".concat(c," with icon name ").concat(o))):n(a)})}var Ie=J.styles;function Te(t){var i,e,o,c,s,l,f,u,n,d,m,a=Oe(t);return~a.extra.classes.indexOf(j)?function(t,e){var n=e.title,a=e.transform,r=e.extra,i=null,o=null;if(k){var c=parseInt(getComputedStyle(t).fontSize,10),s=t.getBoundingClientRect();i=s.width/c,o=s.height/c}return et.autoA11y&&!n&&(r.attributes["aria-hidden"]="true"),St.resolve([t,Ht({content:t.innerHTML,width:i,height:o,transform:a,title:n,extra:r,watchable:!0})])}(t,a):(i=t,o=(e=a).iconName,c=e.title,s=e.titleId,l=e.prefix,f=e.transform,u=e.symbol,n=e.mask,d=e.maskId,m=e.extra,new St(function(r,t){St.all([Fe(o,l),Fe(n.iconName,n.prefix)]).then(function(t){var e=h(t,2),n=e[0],a=e[1];r([i,Ut({icons:{main:n,mask:a},prefix:l,iconName:o,transform:f,symbol:u,mask:a,maskId:d,title:c,titleId:s,extra:m,watchable:!0})])})}))}function _e(t){var n=1<arguments.length&&void 0!==arguments[1]?arguments[1]:null;if(p){var e=b.documentElement.classList,a=function(t){return e.add("".concat(M,"-").concat(t))},r=function(t){return e.remove("".concat(M,"-").concat(t))},i=et.autoFetchSvg?Object.keys(z):Object.keys(Ie),o=[".".concat(j,":not([").concat(tt,"])")].concat(i.map(function(t){return".".concat(t,":not([").concat(tt,"])")})).join(", ");if(0!==o.length){var c=[];try{c=Et(t.querySelectorAll(o))}catch(t){}if(0<c.length){a("pending"),r("complete");var s=Wt.begin("onTree"),l=c.reduce(function(t,e){try{var n=Te(e);n&&t.push(n)}catch(t){E||t instanceof Me&&console.error(t)}return t},[]);return new St(function(e,t){St.all(l).then(function(t){ye(t,function(){a("active"),a("complete"),r("pending"),"function"==typeof n&&n(),s(),e()})}).catch(function(){s(),t()})})}}}}function Ue(t){var e=1<arguments.length&&void 0!==arguments[1]?arguments[1]:null;Te(t).then(function(t){t&&ye([t],e)})}function He(h,p){var g="".concat(S).concat(p.replace(":","-"));return new St(function(a,t){if(null!==h.getAttribute(g))return a();var e=Et(h.children).filter(function(t){return t.getAttribute(x)===p})[0],n=v.getComputedStyle(h,p),r=n.getPropertyValue("font-family").match(R),i=n.getPropertyValue("font-weight"),o=n.getPropertyValue("content");if(e&&!r)return h.removeChild(e),a();if(r&&"none"!==o&&""!==o){var c=n.getPropertyValue("content"),s=~["Solid","Regular","Light","Duotone","Brands","Kit"].indexOf(r[2])?L[r[2].toLowerCase()]:F[i],l=Gt(3===c.length?c.substr(1,1):c),f=le(s,l),u=f;if(u||(u=l),f||(f=String.fromCharCode(parseInt(l,16))),!f||e&&e.getAttribute(C)===s&&e.getAttribute(O)===u)a();else{h.setAttribute(g,u),e&&h.removeChild(e);var d={iconName:null,title:null,titleId:null,prefix:null,transform:Ot,symbol:!1,mask:null,maskId:null,extra:{classes:[],styles:{},attributes:{}}},m=d.extra;m.attributes[x]=p,Fe(f,s).then(function(t){var e=Ut($({},d,{icons:{main:t,mask:ue()},prefix:s,iconName:u,extra:m,watchable:!0})),n=b.createElement("svg");":before"===p?h.insertBefore(n,h.firstChild):h.appendChild(n),n.outerHTML=e.map(function(t){return he(t)}).join("\n"),h.removeAttribute(g),a()}).catch(t)}}else a()})}function Ye(t){return St.all([He(t,":before"),He(t,":after")])}function De(t){return!(t.parentNode===document.head||~P.indexOf(t.tagName.toUpperCase())||t.getAttribute(x)||t.parentNode&&"svg"===t.parentNode.tagName)}function Ve(r){if(p)return new St(function(t,e){var n=Et(r.querySelectorAll("*")).filter(De).map(Ye),a=Wt.begin("searchPseudoElements");we=!0,St.all(n).then(function(){a(),xe(),t()}).catch(function(){a(),xe(),e()})})}var qe="svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}";function We(){var t=y,e=w,n=et.familyPrefix,a=et.replacementClass,r=qe;if(n!==t||a!==e){var i=new RegExp("\\.".concat(t,"\\-"),"g"),o=new RegExp("\\--".concat(t,"\\-"),"g"),c=new RegExp("\\.".concat(e),"g");r=r.replace(i,".".concat(n,"-")).replace(o,"--".concat(n,"-")).replace(c,".".concat(a))}return r}function Xe(){et.autoAddCss&&!Qe&&(Mt(We()),Qe=!0)}function Ge(e,t){return Object.defineProperty(e,"abstract",{get:t}),Object.defineProperty(e,"html",{get:function(){return e.abstract.map(function(t){return he(t)})}}),Object.defineProperty(e,"node",{get:function(){if(p){var t=b.createElement("div");return t.innerHTML=e.html,t.children}}}),e}function Ke(t){var e=t.prefix,n=void 0===e?"fa":e,a=t.iconName;if(a)return me(Je.definitions,n,a)||me(J.styles,n,a)}var Be,Je=new(function(){function t(){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.definitions={}}var e,n,a;return e=t,(n=[{key:"add",value:function(){for(var e=this,t=arguments.length,n=new Array(t),a=0;a<t;a++)n[a]=arguments[a];var r=n.reduce(this._pullDefinitions,{});Object.keys(r).forEach(function(t){e.definitions[t]=$({},e.definitions[t]||{},r[t]),Bt(t,r[t]),se()})}},{key:"reset",value:function(){this.definitions={}}},{key:"_pullDefinitions",value:function(i,t){var o=t.prefix&&t.iconName&&t.icon?{0:t}:t;return Object.keys(o).map(function(t){var e=o[t],n=e.prefix,a=e.iconName,r=e.icon;i[n]||(i[n]={}),i[n][a]=r}),i}}])&&i(e.prototype,n),a&&i(e,a),t}()),Qe=!1,Ze={i2svg:function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{};if(p){Xe();var e=t.node,n=void 0===e?b:e,a=t.callback,r=void 0===a?function(){}:a;return et.searchPseudoElements&&Ve(n),_e(n,r)}return St.reject("Operation requires a DOM of some kind.")},css:We,insertCss:function(){Qe||(Mt(We()),Qe=!0)},watch:function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{},e=t.autoReplaceSvgRoot,n=t.observeMutationsRoot;!1===et.autoReplaceSvg&&(et.autoReplaceSvg=!0),et.observeMutations=!0,nt(function(){en({autoReplaceSvgRoot:e}),Ae({treeCallback:_e,nodeCallback:Ue,pseudoElementsCallback:Ve,observeMutationsRoot:n})})}},$e=(Be=function(t){var e=1<arguments.length&&void 0!==arguments[1]?arguments[1]:{},n=e.transform,a=void 0===n?Ot:n,r=e.symbol,i=void 0!==r&&r,o=e.mask,c=void 0===o?null:o,s=e.maskId,l=void 0===s?null:s,f=e.title,u=void 0===f?null:f,d=e.titleId,m=void 0===d?null:d,h=e.classes,p=void 0===h?[]:h,g=e.attributes,v=void 0===g?{}:g,b=e.styles,y=void 0===b?{}:b;if(t){var w=t.prefix,x=t.iconName,k=t.icon;return Ge($({type:"icon"},t),function(){return Xe(),et.autoA11y&&(u?v["aria-labelledby"]="".concat(et.replacementClass,"-title-").concat(m||Pt()):(v["aria-hidden"]="true",v.focusable="false")),Ut({icons:{main:Re(k),mask:c?Re(c.icon):{found:!1,width:null,height:null,icon:{}}},prefix:w,iconName:x,transform:$({},Ot,a),symbol:i,title:u,maskId:l,titleId:m,extra:{attributes:v,styles:y,classes:p}})})}},function(t){var e=1<arguments.length&&void 0!==arguments[1]?arguments[1]:{},n=(t||{}).icon?t:Ke(t||{}),a=e.mask;return a&&(a=(a||{}).icon?a:Ke(a||{})),Be(n,$({},e,{mask:a}))}),tn={noAuto:function(){et.autoReplaceSvg=!1,et.observeMutations=!1,ke&&ke.disconnect()},config:et,dom:Ze,library:Je,parse:{transform:function(t){return Ce(t)}},findIconDefinition:Ke,icon:$e,text:function(t){var e=1<arguments.length&&void 0!==arguments[1]?arguments[1]:{},n=e.transform,a=void 0===n?Ot:n,r=e.title,i=void 0===r?null:r,o=e.classes,c=void 0===o?[]:o,s=e.attributes,l=void 0===s?{}:s,f=e.styles,u=void 0===f?{}:f;return Ge({type:"text",content:t},function(){return Xe(),Ht({content:t,transform:$({},Ot,a),title:i,extra:{attributes:l,styles:u,classes:["".concat(et.familyPrefix,"-layers-text")].concat(d(c))}})})},counter:function(t){var e=1<arguments.length&&void 0!==arguments[1]?arguments[1]:{},n=e.title,a=void 0===n?null:n,r=e.classes,i=void 0===r?[]:r,o=e.attributes,c=void 0===o?{}:o,s=e.styles,l=void 0===s?{}:s;return Ge({type:"counter",content:t},function(){return Xe(),function(t){var e=t.content,n=t.title,a=t.extra,r=$({},a.attributes,n?{title:n}:{},{class:a.classes.join(" ")}),i=Rt(a.styles);0<i.length&&(r.style=i);var o=[];return o.push({tag:"span",attributes:r,children:[e]}),n&&o.push({tag:"span",attributes:{class:"sr-only"},children:[n]}),o}({content:t.toString(),title:a,extra:{attributes:c,styles:l,classes:["".concat(et.familyPrefix,"-layers-counter")].concat(d(i))}})})},layer:function(t){var e=(1<arguments.length&&void 0!==arguments[1]?arguments[1]:{}).classes,n=void 0===e?[]:e;return Ge({type:"layer"},function(){Xe();var e=[];return t(function(t){Array.isArray(t)?t.map(function(t){e=e.concat(t.abstract)}):e=e.concat(t.abstract)}),[{tag:"span",attributes:{class:["".concat(et.familyPrefix,"-layers")].concat(d(n)).join(" ")},children:e}]})},toHtml:he},en=function(){var t=(0<arguments.length&&void 0!==arguments[0]?arguments[0]:{}).autoReplaceSvgRoot,e=void 0===t?b:t;(0<Object.keys(J.styles).length||et.autoFetchSvg)&&p&&et.autoReplaceSvg&&tn.dom.i2svg({node:e})};!function(t){try{t()}catch(t){if(!E)throw t}}(function(){m&&(v.FontAwesome||(v.FontAwesome=tn),nt(function(){en(),Ae({treeCallback:_e,nodeCallback:Ue,pseudoElementsCallback:Ve})})),J.hooks=$({},J.hooks,{addPack:function(t,e){J.styles[t]=$({},J.styles[t]||{},e),se(),en()},addShims:function(t){var e;(e=J.shims).push.apply(e,d(t)),se(),en()}})})}();</script>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shodanhq">
+<meta name="twitter:creator" content="@achillean">
+<meta name="twitter:title" content="line.me">
+<meta name="twitter:description" content="Subdomains: 20-21newyear.game, 2024-smb-club.landpress, _dmarc, a, access...">
+<style>#subdomains > li {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+}
+
+#abstract-bg {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#host-title {
+    background-image: none !important;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 80px 0 0 0;
+    padding: 0 10px;
+}
+
+.ports {
+    margin-left: 20px;
+}
+
+.ports > span {
+    margin-right: 5px;
+}
+</style>
+</head>
+<body>
+<div class="quickbar">
+<ul>
+<li><a href="https://www.shodan.io/">Shodan</a>
+</li>
+<li><a href="https://maps.shodan.io/">Maps</a>
+</li>
+<li><a href="https://images.shodan.io/">Images</a>
+</li>
+<li><a href="https://monitor.shodan.io/">Monitor</a>
+</li>
+<li><a href="https://developer.shodan.io/">Developer</a>
+</li>
+<li><a href="https://www.shodan.io/about/products">More...</a>
+</li>
+</ul>
+</div>
+<div class="container u-full-width">
+<div class="row">
+<div class="twelve columns">
+<div id="abstract-bg"><canvas width="2295" height="203"></canvas></div>
+<style>.searchbox {
+    font-family: Arial;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+@media (max-width: 900px) {
+    .right-menu .menu-item-account {
+        display: none
+    }
+}
+</style>
+<div class="navbar">
+<input id="menu-btn" type="checkbox" class="menu-btn">
+<label for="menu-btn" class="menu-icon"><span class="navicon"><svg class="svg-inline--fa fa-bars fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fa fa-bars  fa-fw "></i> Font Awesome fontawesome.com --></span>
+</label><a href="https://www.shodan.io/dashboard" class="title"><img src="./Shodan Search Engine_files/logo-6abcc86b.png" alt="Shodan" width="112" height="32"></a>
+<ul class="menu sub-menu">
+<li><a href="https://www.shodan.io/explore"><svg class="svg-inline--fa fa-globe fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg><!-- <i class="fas fa-globe  fa-fw "></i> Font Awesome fontawesome.com -->Explore</a>
+</li>
+<li><a href="https://www.shodan.io/download"><svg class="svg-inline--fa fa-download fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><!-- <i class="fas fa-download  fa-fw "></i> Font Awesome fontawesome.com -->Downloads</a>
+</li>
+<li><a href="https://account.shodan.io/billing" target="_blank" rel="noopener noreferrer"><svg class="svg-inline--fa fa-briefcase fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg><!-- <i class="fas fa-briefcase  fa-fw "></i> Font Awesome fontawesome.com -->Pricing
+<svg style="font-size: 1.1rem;" class="svg-inline--fa fa-external-link fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="external-link" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM474.67,0H316a28,28,0,0,0-28,28V46.71A28,28,0,0,0,316.79,73.9L384,72,135.06,319.09l-.06.06a24,24,0,0,0,0,33.94l23.94,23.85.06.06a24,24,0,0,0,33.91-.09L440,128l-1.88,67.22V196a28,28,0,0,0,28,28H484a28,28,0,0,0,28-28V37.33h0A37.33,37.33,0,0,0,474.67,0Z"></path></svg><!-- <i style="font-size: 1.1rem" class="fa fa-external-link  fa-fw "></i> Font Awesome fontawesome.com --></a>
+</li>
+<li class="menu-item-account"><a href="https://account.shodan.io/"><svg class="svg-inline--fa fa-user fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><!-- <i class="fas fa-user  fa-fw "></i> Font Awesome fontawesome.com -->Account</a>
+</li>
+</ul>
+<form action="https://www.shodan.io/search" method="GET">
+<div class="searchbox">
+<div class="input-wrapper">
+<label for="search-query" value="Enter search query" class="visually-hidden"></label>
+<input type="text" name="query" placeholder="Search..." autofocus="autofocus" autocapitalize="none" spellcheck="false" id="search-query">
+</div>
+<button type="submit" aria-label="Submit search query" data-balloon-disable="data-balloon-disable" class="button-red"><svg class="svg-inline--fa fa-search fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-search  fa-fw "></i> Font Awesome fontawesome.com -->
+</button>
+</div>
+</form>
+<ul class="menu main-menu right-menu">
+<li class="menu-item-account"><a href="https://account.shodan.io/">Account</a>
+</li>
+</ul>
+</div>
+<h2 id="host-title" class="bg-dark heading">line.me</h2>
+</div>
+</div>
+</div>
+<div id="domain" class="container u-full-width card-padding">
+<div class="row">
+<div class="nine columns card card-padding card-yellow">
+<h1><svg class="svg-inline--fa fa-warehouse fa-w-20 fa-fw" aria-hidden="true" focusable="false" data-prefix="far" data-icon="warehouse" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M504 208H136c-22.1 0-40 17.9-40 40v248c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16v-48h352v48c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V248c0-22.1-17.9-40-40-40zm-8 208H144v-64h352v64zm0-96H144v-64h352v64zm101.9-209.9L346.3 5.3c-17-7-35.7-7.1-52.6 0L42.1 110.1C16.5 120.7 0 145.5 0 173.2V496c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V173.2c0-8.3 4.9-15.7 12.5-18.8L312.2 49.6c5.1-2.1 10.6-2.1 15.7 0l251.6 104.8c7.6 3.2 12.5 10.6 12.5 18.8V496c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V173.2c0-27.7-16.5-52.5-42.1-63.1z"></path></svg><!-- <i class="far fa-warehouse  fa-fw "></i> Font Awesome fontawesome.com --><em>Domain</em>Records
+</h1>
+<table class="u-full-width">
+<tbody>
+<tr>
+<td></td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.206" class="text-dark">147.92.243.206</a></strong>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>MX</td>
+<td>mx-common.line-apps.com</td>
+</tr>
+<tr>
+<td></td>
+<td>MX</td>
+<td>mx1-common.line-apps.com</td>
+</tr>
+<tr>
+<td></td>
+<td>MX</td>
+<td>mx2-common.line-apps.com</td>
+</tr>
+<tr>
+<td></td>
+<td>MX</td>
+<td>mx3-common.line-apps.com</td>
+</tr>
+<tr>
+<td></td>
+<td>NS</td>
+<td>adns1.naver.com</td>
+</tr>
+<tr>
+<td></td>
+<td>NS</td>
+<td>adns2.naver.com</td>
+</tr>
+<tr>
+<td></td>
+<td>NS</td>
+<td>ns1.naver.jp</td>
+</tr>
+<tr>
+<td></td>
+<td>NS</td>
+<td>ns2.naver.jp</td>
+</tr>
+<tr>
+<td></td>
+<td>SOA</td>
+<td>adns1.naver.com</td>
+</tr>
+<tr>
+<td></td>
+<td>TXT</td>
+<td>facebook-domain-verification=35wnsqkba1tqtxca6q5xlxrxcul4qd</td>
+</tr>
+<tr>
+<td></td>
+<td>TXT</td>
+<td>google-site-verification=Ri-G6bf49-iTkhhxR6TAWnk0_yfslPvcvsQrPa8Usvc</td>
+</tr>
+<tr>
+<td></td>
+<td>TXT</td>
+<td>v=spf1 include:naver.com include:spf.naver.jp ip4:203.104.136.0/24 ip4:147.92.128.0/17 include:_spfblock_ext.line.me ~all</td>
+</tr>
+<tr>
+<td>20-21newyear.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>2024-smb-club.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>_dmarc</td>
+<td>TXT</td>
+<td>v=DMARC1; p=none; fo=s; rua=mailto:dl_dmarc@linecorp.com; pct=100</td>
+</tr>
+<tr>
+<td>a</td>
+<td>CNAME</td>
+<td>a.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>access</td>
+<td>CNAME</td>
+<td>access-cha.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>access-auto</td>
+<td>CNAME</td>
+<td>access-auto.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>access-dr</td>
+<td>CNAME</td>
+<td>access.line.me</td>
+</tr>
+<tr>
+<td>access2</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.180" class="text-dark">147.92.144.180</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>account</td>
+<td>CNAME</td>
+<td>domain-parking.line-apps.com</td>
+</tr>
+<tr>
+<td>accountpage</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.175" class="text-dark">147.92.144.175</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>acrz-static.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>admin-rangers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.123.34" class="text-dark">10.118.123.34</a></strong>
+</td>
+</tr>
+<tr>
+<td>admin-sdbx</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.22.15.62" class="text-dark">10.22.15.62</a></strong>
+</td>
+</tr>
+<tr>
+<td>ads</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.253" class="text-dark">147.92.146.253</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>agecheck</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.21" class="text-dark">147.92.240.21</a></strong>
+</td>
+</tr>
+<tr>
+<td>agecheck-beta</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.152.20" class="text-dark">147.92.152.20</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>agecheck-rc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.44" class="text-dark">147.92.242.44</a></strong>
+</td>
+</tr>
+<tr>
+<td>alertth</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>alpha-ace</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.208.109" class="text-dark">125.209.208.109</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>alpha-lcs</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.208.109" class="text-dark">125.209.208.109</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>alpha-nc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.208.109" class="text-dark">125.209.208.109</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>analytics-conomi</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.12" class="text-dark">147.92.191.12</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+<div class="tag">self-signed</div>
+</td>
+</tr>
+<tr>
+<td>api</td>
+<td>CNAME</td>
+<td>api-channel.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>api-album-rc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.230.62.220" class="text-dark">10.230.62.220</a></strong>
+</td>
+</tr>
+<tr>
+<td>api-alpha-music</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.99.197.189" class="text-dark">10.99.197.189</a></strong>
+</td>
+</tr>
+<tr>
+<td>api-cas</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.49" class="text-dark">147.92.184.49</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>api-clovanote</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.137" class="text-dark">147.92.241.137</a></strong>
+</td>
+</tr>
+<tr>
+<td>api-data</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.80" class="text-dark">147.92.191.80</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>api-dr</td>
+<td>CNAME</td>
+<td>api.line.me</td>
+</tr>
+<tr>
+<td>api-music</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.248" class="text-dark">147.92.240.248</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>api-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.9" class="text-dark">147.92.224.9</a></strong>
+</td>
+</tr>
+<tr>
+<td>api-reservation</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.237" class="text-dark">147.92.240.237</a></strong>
+</td>
+</tr>
+<tr>
+<td>api-tapas</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.12" class="text-dark">147.92.191.12</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+<div class="tag">self-signed</div>
+</td>
+</tr>
+<tr>
+<td>api.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.96" class="text-dark">147.92.139.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>api.today</td>
+<td>CNAME</td>
+<td>api.today.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>api2</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.180" class="text-dark">147.92.144.180</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>api2-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.9" class="text-dark">147.92.224.9</a></strong>
+</td>
+</tr>
+<tr>
+<td>app-api.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.57" class="text-dark">147.92.242.57</a></strong>
+</td>
+</tr>
+<tr>
+<td>app-cv</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.109" class="text-dark">147.92.191.109</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>app-explorer.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.57" class="text-dark">147.92.242.57</a></strong>
+</td>
+</tr>
+<tr>
+<td>app-manga</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.199" class="text-dark">147.92.146.199</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>appier-mobile</td>
+<td>CNAME</td>
+<td>cookie-server-001.qgraph.io</td>
+</tr>
+<tr>
+<td>apple-cv</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.225" class="text-dark">147.92.146.225</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>askme</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.206" class="text-dark">147.92.144.206</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>asttest.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.116" class="text-dark">147.92.241.116</a></strong>
+</td>
+</tr>
+<tr>
+<td>at</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.166" class="text-dark">147.92.146.166</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>at-agency</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/203.104.131.113" class="text-dark">203.104.131.113</a></strong>
+</td>
+</tr>
+<tr>
+<td>at-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>athens</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.129" class="text-dark">147.92.242.129</a></strong>
+</td>
+</tr>
+<tr>
+<td>athens-stage</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.132" class="text-dark">147.92.242.132</a></strong>
+</td>
+</tr>
+<tr>
+<td>audition</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/203.104.138.200" class="text-dark">203.104.138.200</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>baito</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.11" class="text-dark">147.92.146.11</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>baito-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>baito-mag-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>bank-open-api-web-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.32" class="text-dark">147.92.224.32</a></strong>
+</td>
+</tr>
+<tr>
+<td>batch-rangers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.115.195.28" class="text-dark">10.115.195.28</a></strong>
+</td>
+</tr>
+<tr>
+<td>bingo.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.244.57" class="text-dark">125.209.244.57</a></strong>
+</td>
+</tr>
+<tr>
+<td>birthday-gift-tw</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.115" class="text-dark">147.92.146.115</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>bitmax-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>biz</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.6.149.168" class="text-dark">125.6.149.168</a></strong>
+</td>
+</tr>
+<tr>
+<td>biz.line-research</td>
+<td>CNAME</td>
+<td>go.pardot.com</td>
+</tr>
+<tr>
+<td>biz.research</td>
+<td>CNAME</td>
+<td>go.pardot.com</td>
+</tr>
+<tr>
+<td>bjlinks.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.166" class="text-dark">147.92.146.166</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>blog-cms</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>blog.clova</td>
+<td>CNAME</td>
+<td>6341140.group40.sites.hubspot.net</td>
+</tr>
+<tr>
+<td>bnms.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.230.205.27" class="text-dark">10.230.205.27</a></strong>
+</td>
+</tr>
+<tr>
+<td>bridgepage.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.162" class="text-dark">147.92.240.162</a></strong>
+</td>
+</tr>
+<tr>
+<td>brownfarm.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>bubble2.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>business.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.205" class="text-dark">147.92.191.205</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>buy</td>
+<td>CNAME</td>
+<td>buy.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>buy-calendar</td>
+<td>CNAME</td>
+<td>ecac-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>buy-order-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.94" class="text-dark">147.92.146.94</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>buy-order-api-ec-sandbox</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.212" class="text-dark">147.92.144.212</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>buy-partner</td>
+<td>CNAME</td>
+<td>ecac-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>buy-partner-api</td>
+<td>CNAME</td>
+<td>ecac-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>ca.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.176" class="text-dark">147.92.146.176</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>callback</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.21" class="text-dark">147.92.240.21</a></strong>
+</td>
+</tr>
+<tr>
+<td>callback-rangers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.122.44" class="text-dark">10.118.122.44</a></strong>
+</td>
+</tr>
+<tr>
+<td>camera-official-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>campaign</td>
+<td>CNAME</td>
+<td>campaign.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>cc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>charmmy</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.120.175" class="text-dark">10.233.120.175</a></strong>
+</td>
+</tr>
+<tr>
+<td>charmmy-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.101" class="text-dark">147.92.243.101</a></strong>
+</td>
+</tr>
+<tr>
+<td>charmmy-rss</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.253" class="text-dark">147.92.184.253</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>charmmy-shortcut</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.79" class="text-dark">147.92.191.79</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>chef.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>chirashi</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.205" class="text-dark">147.92.243.205</a></strong>
+</td>
+</tr>
+<tr>
+<td>chocolat.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>chodaifugo.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>clova</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>clova-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>clova-blog-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>clovanote</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.79" class="text-dark">147.92.243.79</a></strong>
+</td>
+</tr>
+<tr>
+<td>clovavision</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.200" class="text-dark">147.92.240.200</a></strong>
+</td>
+</tr>
+<tr>
+<td>clovavision-cms</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.200" class="text-dark">147.92.240.200</a></strong>
+</td>
+</tr>
+<tr>
+<td>codelab</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.128" class="text-dark">147.92.184.128</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>community-admin-beta.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.52" class="text-dark">147.92.243.52</a></strong>
+</td>
+</tr>
+<tr>
+<td>community-admin.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.144" class="text-dark">147.92.243.144</a></strong>
+</td>
+</tr>
+<tr>
+<td>conomi</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.12" class="text-dark">147.92.191.12</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+<div class="tag">self-signed</div>
+</td>
+</tr>
+<tr>
+<td>console-internal.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.128.94" class="text-dark">10.118.128.94</a></strong>
+</td>
+</tr>
+<tr>
+<td>contact</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.131" class="text-dark">147.92.243.131</a></strong>
+</td>
+</tr>
+<tr>
+<td>contact-cc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.131" class="text-dark">147.92.243.131</a></strong>
+</td>
+</tr>
+<tr>
+<td>contact.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>content.landpress</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.230.206.121" class="text-dark">10.230.206.121</a></strong>
+</td>
+</tr>
+<tr>
+<td>conversion-api.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.187" class="text-dark">147.92.242.187</a></strong>
+</td>
+</tr>
+<tr>
+<td>coupon</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.212" class="text-dark">147.92.146.212</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>creative</td>
+<td>CNAME</td>
+<td>common-ff-mcdn.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>creativelab-tips</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>creator</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.252" class="text-dark">147.92.184.252</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>creator-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>creator-mag-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>creator-mag-th</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>creator-mag-tw</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>creator-manual</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>creator-manual-en</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>creator-manual-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>creator-manual-th</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>creator-manual-tw</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>crs-event</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.146" class="text-dark">147.92.191.146</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>crs-hometab-event</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.201" class="text-dark">147.92.146.201</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>crs-lp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.252" class="text-dark">147.92.243.252</a></strong>
+</td>
+</tr>
+<tr>
+<td>crs-opt-out</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.13" class="text-dark">147.92.242.13</a></strong>
+</td>
+</tr>
+<tr>
+<td>cs-cb.clova</td>
+<td>CNAME</td>
+<td>6341140.group40.sites.hubspot.net</td>
+</tr>
+<tr>
+<td>cs-ocr.clova</td>
+<td>CNAME</td>
+<td>6341140.group40.sites.hubspot.net</td>
+</tr>
+<tr>
+<td>cube</td>
+<td>CNAME</td>
+<td>cube.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>cube-origin</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.57" class="text-dark">147.92.191.57</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>d</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.166" class="text-dark">147.92.146.166</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>de-nvapis</td>
+<td>CNAME</td>
+<td>de.apis.naver.com</td>
+</tr>
+<tr>
+<td>deal</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>deals</td>
+<td>CNAME</td>
+<td>cac-deals.line.me.line-zero.akadns.net</td>
+</tr>
+<tr>
+<td>decostudio</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/117.52.128.26" class="text-dark">117.52.128.26</a></strong>
+</td>
+</tr>
+<tr>
+<td>delima</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>design</td>
+<td>CNAME</td>
+<td>design.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>designsystem</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>destiny-child-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.242" class="text-dark">147.92.146.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>dev.blockchain</td>
+<td>CNAME</td>
+<td>blockchain.line.biz.edgesuite.net</td>
+</tr>
+<tr>
+<td>dev.dict</td>
+<td>CNAME</td>
+<td>dev2.nfront.me</td>
+</tr>
+<tr>
+<td>dev.partner</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.156.154" class="text-dark">10.113.156.154</a></strong>
+</td>
+</tr>
+<tr>
+<td>devday-2021.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>devdocs</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.240" class="text-dark">147.92.184.240</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>developers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.240" class="text-dark">147.92.184.240</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>developers-admin.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.119" class="text-dark">147.92.146.119</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>developers-origin</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.10" class="text-dark">147.92.146.10</a></strong>
+</td>
+</tr>
+<tr>
+<td>developers.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.125" class="text-dark">147.92.146.125</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>dfm</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.1" class="text-dark">147.92.240.1</a></strong>
+</td>
+</tr>
+<tr>
+<td>docs-music-analytics</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>docs.blockchain</td>
+<td>CNAME</td>
+<td>docs-blockchain.landpress.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>doctor</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>dona.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>dosi-jal.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>dosi-jp.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>dosiwallet-jp.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>dpos-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.24" class="text-dark">147.92.224.24</a></strong>
+</td>
+</tr>
+<tr>
+<td>drpk.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>duckyduck.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>ec</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.214" class="text-dark">147.92.243.214</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>ec-bot-web</td>
+<td>CNAME</td>
+<td>ec-bot-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>ecmall</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.115" class="text-dark">147.92.146.115</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>egp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.235" class="text-dark">147.92.144.235</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>eiyu-ranbu.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.168" class="text-dark">125.209.210.168</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>emojipack.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>entameoa-manual</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>entry</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>event</td>
+<td>CNAME</td>
+<td>ec-bot-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>event-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.5" class="text-dark">147.92.224.5</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>event-web</td>
+<td>CNAME</td>
+<td>cac-event-web.line.me.line-zero.akadns.net</td>
+</tr>
+<tr>
+<td>events</td>
+<td>CNAME</td>
+<td>domain-parking.line-apps.com</td>
+</tr>
+<tr>
+<td>explorer.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.96" class="text-dark">147.92.139.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>fact-checker</td>
+<td>CNAME</td>
+<td>fackchecker-vks-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>fapi-beta.play</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/112.175.28.21" class="text-dark">112.175.28.21</a></strong>
+</td>
+</tr>
+<tr>
+<td>feed-api-reservation</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.106" class="text-dark">147.92.242.106</a></strong>
+</td>
+</tr>
+<tr>
+<td>feedback</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.198" class="text-dark">147.92.242.198</a></strong>
+</td>
+</tr>
+<tr>
+<td>feedback-request</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.137" class="text-dark">147.92.240.137</a></strong>
+</td>
+</tr>
+<tr>
+<td>ffv.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>fgw-jp-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.42" class="text-dark">147.92.224.42</a></strong>
+</td>
+</tr>
+<tr>
+<td>fgw-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.1" class="text-dark">147.92.224.1</a></strong>
+</td>
+</tr>
+<tr>
+<td>fgw-tw-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.45" class="text-dark">147.92.224.45</a></strong>
+</td>
+</tr>
+<tr>
+<td>form</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.37" class="text-dark">147.92.241.37</a></strong>
+</td>
+</tr>
+<tr>
+<td>fortune</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.204" class="text-dark">147.92.184.204</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>fortune-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>fortune-manager</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.245" class="text-dark">147.92.184.245</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>fraud-alert.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>friend-invitation</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.191" class="text-dark">147.92.184.191</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>friend-survey</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.123" class="text-dark">147.92.241.123</a></strong>
+</td>
+</tr>
+<tr>
+<td>fweb-jp-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.41" class="text-dark">147.92.224.41</a></strong>
+</td>
+</tr>
+<tr>
+<td>fweb-th-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/58.82.169.20" class="text-dark">58.82.169.20</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>fweb-tw-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.47" class="text-dark">147.92.224.47</a></strong>
+</td>
+</tr>
+<tr>
+<td>g-webapp-campaign-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.148" class="text-dark">147.92.146.148</a></strong>
+</td>
+</tr>
+<tr>
+<td>g-webapp-campaign-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.167" class="text-dark">147.92.146.167</a></strong>
+</td>
+</tr>
+<tr>
+<td>g-webapp-campaign.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.245" class="text-dark">147.92.146.245</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.129" class="text-dark">147.92.184.129</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>game-api</td>
+<td>CNAME</td>
+<td>igp-igf-release-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-dv</td>
+<td>CNAME</td>
+<td>igp-igf-release-frontend-dv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-nv</td>
+<td>CNAME</td>
+<td>igp-igf-release-frontend-nv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-sandbox</td>
+<td>CNAME</td>
+<td>igp-igf-sandbox-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-sandbox-dv</td>
+<td>CNAME</td>
+<td>igp-igf-sandbox-frontend-dv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-sandbox-nv</td>
+<td>CNAME</td>
+<td>igp-igf-sandbox-frontend-nv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-staging</td>
+<td>CNAME</td>
+<td>igp-igf-staging-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-staging-dv</td>
+<td>CNAME</td>
+<td>igp-igf-staging-frontend-dv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-api-staging-nv</td>
+<td>CNAME</td>
+<td>igp-igf-staging-frontend-nv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>game-community</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.116" class="text-dark">147.92.242.116</a></strong>
+</td>
+</tr>
+<tr>
+<td>game-developers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.22.15.27" class="text-dark">10.22.15.27</a></strong>
+</td>
+</tr>
+<tr>
+<td>game-oa</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.103" class="text-dark">147.92.242.103</a></strong>
+</td>
+</tr>
+<tr>
+<td>game-oa-simple-addition-ui</td>
+<td>CNAME</td>
+<td>igp-igf-release-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-oa-simple-addition-ui-sandbox</td>
+<td>CNAME</td>
+<td>igp-igf-sandbox-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-oa-simple-addition-ui-staging</td>
+<td>CNAME</td>
+<td>igp-igf-staging-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-portal</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>game-portal-internal</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.116" class="text-dark">147.92.242.116</a></strong>
+</td>
+</tr>
+<tr>
+<td>game-terms</td>
+<td>CNAME</td>
+<td>igp-igf-release-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-terms-sandbox</td>
+<td>CNAME</td>
+<td>igp-igf-sandbox-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-terms-staging</td>
+<td>CNAME</td>
+<td>igp-igf-staging-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>game-yoyaku</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.103" class="text-dark">147.92.242.103</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-alert-api-qa.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-alert-api.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-alert-dashboard-qa.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-alert-dashboard.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-alert-qa.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-alert.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-knife-qa.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-knife-stg.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gcld-knife.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.126.80" class="text-dark">10.233.126.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>gdc-jp.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/175.158.0.56" class="text-dark">175.158.0.56</a></strong>
+</td>
+</tr>
+<tr>
+<td>gdc-rehearsal.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.222.198" class="text-dark">125.209.222.198</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>getrich.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.162" class="text-dark">125.209.210.162</a></strong>
+</td>
+</tr>
+<tr>
+<td>getrichtw.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.162" class="text-dark">125.209.210.162</a></strong>
+</td>
+</tr>
+<tr>
+<td>gift</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.117" class="text-dark">147.92.146.117</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>gift-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>gift-blog-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>gift-shop-entry</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.33" class="text-dark">147.92.243.33</a></strong>
+</td>
+</tr>
+<tr>
+<td>gift-shop-web</td>
+<td>CNAME</td>
+<td>21146981.group31.sites.hubspot.net</td>
+</tr>
+<tr>
+<td>giftshop</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>giftshop-tw</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.115" class="text-dark">147.92.146.115</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>giftshop-tw-liff</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.115" class="text-dark">147.92.146.115</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>giftshop-tw-old</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>global-nvapis</td>
+<td>CNAME</td>
+<td>global.apis.naver.com</td>
+</tr>
+<tr>
+<td>glp-oa-auth</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.84" class="text-dark">147.92.240.84</a></strong>
+</td>
+</tr>
+<tr>
+<td>ground</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>growthy-analytics.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.219.155" class="text-dark">125.209.219.155</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>growthy-bigquery.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.221.137" class="text-dark">125.209.221.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>growthy-bip-chart.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.219.155" class="text-dark">125.209.219.155</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>guardians-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>guide</td>
+<td>CNAME</td>
+<td>guide.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>gum.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.140" class="text-dark">147.92.241.140</a></strong>
+</td>
+</tr>
+<tr>
+<td>gundamwars-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>hackth</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.80" class="text-dark">147.92.243.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>healthcare-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>hello-bt21.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>help</td>
+<td>CNAME</td>
+<td>help.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>help-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.115" class="text-dark">147.92.191.115</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>help2</td>
+<td>CNAME</td>
+<td>im.help2.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>help2-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.231" class="text-dark">147.92.191.231</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>help3rd</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.231" class="text-dark">147.92.191.231</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>hidakaya.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>hidakayaservice.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>home.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>horoscope</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.36" class="text-dark">147.92.184.36</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>hr-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>hrcon</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>hrcon-lp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>hub</td>
+<td>CNAME</td>
+<td>vks-public-ingress-linehub-tw.linecorp.com</td>
+</tr>
+<tr>
+<td>info.feedback</td>
+<td>CNAME</td>
+<td>go.pardot.com</td>
+</tr>
+<tr>
+<td>info.line-research</td>
+<td>CNAME</td>
+<td>go.pardot.com</td>
+</tr>
+<tr>
+<td>info.research</td>
+<td>CNAME</td>
+<td>go.pardot.com</td>
+</tr>
+<tr>
+<td>instant.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.245.219" class="text-dark">125.209.245.219</a></strong>
+</td>
+</tr>
+<tr>
+<td>integration-reservation</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.243" class="text-dark">147.92.191.243</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>invoice</td>
+<td>CNAME</td>
+<td>public-serve.line-apps.com</td>
+</tr>
+<tr>
+<td>isomarusuisan.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>itemget.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.244.49" class="text-dark">125.209.244.49</a></strong>
+</td>
+</tr>
+<tr>
+<td>itunes-card</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.184" class="text-dark">147.92.184.184</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>jp-nvapis</td>
+<td>CNAME</td>
+<td>jp.apis.naver.com</td>
+</tr>
+<tr>
+<td>jumputi-heroes-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>jumputi-heroes-blog-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>jumputi-oshimanga.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.39" class="text-dark">147.92.191.39</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>jumputi.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>jyujyukarubi.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>kotegaeshi.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>kr-nvapis</td>
+<td>CNAME</td>
+<td>kr.apis.naver.com</td>
+</tr>
+<tr>
+<td>kushi-tanaka.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>lacore</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>lan</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.86" class="text-dark">147.92.191.86</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lan-click.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.202" class="text-dark">147.92.242.202</a></strong>
+</td>
+</tr>
+<tr>
+<td>lan-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.86" class="text-dark">147.92.191.86</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lan3rd</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.40" class="text-dark">147.92.191.40</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lan3rd-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.40" class="text-dark">147.92.191.40</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lap-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>lap-click.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.202" class="text-dark">147.92.242.202</a></strong>
+</td>
+</tr>
+<tr>
+<td>lb.clova</td>
+<td>CNAME</td>
+<td>6341140.group40.sites.hubspot.net</td>
+</tr>
+<tr>
+<td>lbc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>lbw</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.71" class="text-dark">147.92.139.71</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lbw-jp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.68" class="text-dark">147.92.139.68</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lcp-apis</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.84" class="text-dark">147.92.243.84</a></strong>
+</td>
+</tr>
+<tr>
+<td>lcp-cas-external</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.49" class="text-dark">147.92.184.49</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lcp-checkout</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.239" class="text-dark">125.209.210.239</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lcp-logs</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.77" class="text-dark">147.92.243.77</a></strong>
+</td>
+</tr>
+<tr>
+<td>lcs</td>
+<td>CNAME</td>
+<td>lcs.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>lg-cs</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.131" class="text-dark">147.92.243.131</a></strong>
+</td>
+</tr>
+<tr>
+<td>lg10th-special.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lg10th.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.73" class="text-dark">147.92.241.73</a></strong>
+</td>
+</tr>
+<tr>
+<td>lgurl</td>
+<td>CNAME</td>
+<td>igp-igf-release-frontend-cv.line-apps.com</td>
+</tr>
+<tr>
+<td>life-assistant-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/203.104.129.226" class="text-dark">203.104.129.226</a></strong>
+</td>
+</tr>
+<tr>
+<td>liff</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.223" class="text-dark">147.92.184.223</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>liff-ext</td>
+<td>CNAME</td>
+<td>liff.line.me</td>
+</tr>
+<tr>
+<td>liff-shortcut</td>
+<td>CNAME</td>
+<td>liff.line.me</td>
+</tr>
+<tr>
+<td>liff-subwindow</td>
+<td>CNAME</td>
+<td>liff.line.me</td>
+</tr>
+<tr>
+<td>line-biz-solutions-awards</td>
+<td>CNAME</td>
+<td>prd-real.default.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>line-entry-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>line-melody</td>
+<td>CNAME</td>
+<td>prd-real.lisa1.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>line-research</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.79" class="text-dark">147.92.146.79</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>line-sec-info.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>line-sec-support.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>line-verified-resellers</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>lineaiassistant.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>linecarnavi-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>linedevth</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>linegift</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.33" class="text-dark">147.92.243.33</a></strong>
+</td>
+</tr>
+<tr>
+<td>lineit</td>
+<td>CNAME</td>
+<td>cac-lineit.line.me.line-zero.akadns.net</td>
+</tr>
+<tr>
+<td>lineman</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.165.215" class="text-dark">147.92.165.215</a></strong>
+</td>
+</tr>
+<tr>
+<td>linemobile-event.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>lineout-refund</td>
+<td>CNAME</td>
+<td>prd-real.lisa1.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>linepay</td>
+<td>CNAME</td>
+<td>linepay.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>lineshoppingincubator.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>linesupport.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>linevoom</td>
+<td>CNAME</td>
+<td>cac-linevoom.line.me.line-zero.akadns.net</td>
+</tr>
+<tr>
+<td>linevoom-event.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>list</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.222.89" class="text-dark">125.209.222.89</a></strong>
+</td>
+</tr>
+<tr>
+<td>live</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>live-refund</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>livebuy</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.31" class="text-dark">147.92.240.31</a></strong>
+</td>
+</tr>
+<tr>
+<td>log-rangers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.123.38" class="text-dark">10.118.123.38</a></strong>
+</td>
+</tr>
+<tr>
+<td>lotteria.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>lp.play</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.229.96" class="text-dark">125.209.229.96</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>lpg.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>lps-editor-1294.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>lps-editor-1600.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>lps-editor-450.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>lsp-tw</td>
+<td>CNAME</td>
+<td>public-serve.line-apps.com</td>
+</tr>
+<tr>
+<td>lt-click.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.202" class="text-dark">147.92.242.202</a></strong>
+</td>
+</tr>
+<tr>
+<td>lucky-gacha.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.73" class="text-dark">147.92.241.73</a></strong>
+</td>
+</tr>
+<tr>
+<td>lush-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.230.61.190" class="text-dark">10.230.61.190</a></strong>
+</td>
+</tr>
+<tr>
+<td>lush.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.152" class="text-dark">147.92.243.152</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-at-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-baito-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-botawards-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-camera-official-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-clova-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-creator-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-creator-manual</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-fortune-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-gift-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-guardians-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-hr-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-manga-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-mobile-blog</td>
+<td>CNAME</td>
+<td>mobile-blog-01.livedoor.jp</td>
+</tr>
+<tr>
+<td>m-music-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-now-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-official-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>m-pazfre-blog</td>
+<td>CNAME</td>
+<td>mobile-blog-01.livedoor.jp</td>
+</tr>
+<tr>
+<td>m-research-platform</td>
+<td>CNAME</td>
+<td>mobile-blog-01.livedoor.jp</td>
+</tr>
+<tr>
+<td>m-survey-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>magiccoin.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>mail.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.244.46" class="text-dark">125.209.244.46</a></strong><span class="ports"><span class="tag bg-primary">25</span></span>
+</td>
+</tr>
+<tr>
+<td>makepositive.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.50" class="text-dark">147.92.241.50</a></strong>
+</td>
+</tr>
+<tr>
+<td>mall</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.117" class="text-dark">147.92.146.117</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>mamaxlinepay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>man</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.165.215" class="text-dark">147.92.165.215</a></strong>
+</td>
+</tr>
+<tr>
+<td>man-admin</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.236.61.37" class="text-dark">10.236.61.37</a></strong>
+</td>
+</tr>
+<tr>
+<td>man-taxi-admin</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.236.61.37" class="text-dark">10.236.61.37</a></strong>
+</td>
+</tr>
+<tr>
+<td>manga</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.179" class="text-dark">147.92.243.179</a></strong>
+</td>
+</tr>
+<tr>
+<td>manga-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>manga-blog-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>manga-channel</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.236" class="text-dark">147.92.184.236</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>mart-tw-logistics-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.190" class="text-dark">147.92.242.190</a></strong>
+</td>
+</tr>
+<tr>
+<td>mdn.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.219.154" class="text-dark">125.209.219.154</a></strong>
+</td>
+</tr>
+<tr>
+<td>media</td>
+<td>CNAME</td>
+<td>media.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>melody</td>
+<td>CNAME</td>
+<td>melody.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>melody-admin</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>melody-admin</td>
+<td>CNAME</td>
+<td>melody-admin.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>miniapp</td>
+<td>CNAME</td>
+<td>liff.line.me</td>
+</tr>
+<tr>
+<td>miniapp-ext</td>
+<td>CNAME</td>
+<td>liff.line.me</td>
+</tr>
+<tr>
+<td>mkt-tool.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.203" class="text-dark">147.92.146.203</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>mobile</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.129" class="text-dark">147.92.191.129</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>mobile-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>monary-provider</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.167" class="text-dark">147.92.243.167</a></strong>
+</td>
+</tr>
+<tr>
+<td>monitoring.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.221" class="text-dark">147.92.184.221</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>monsterfarm.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>music</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.33" class="text-dark">147.92.184.33</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>music-campaign</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.83" class="text-dark">147.92.191.83</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>music-jp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.33" class="text-dark">147.92.184.33</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>music-jp-coupon</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.33" class="text-dark">147.92.184.33</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>music-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>music-refund</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>music-tw</td>
+<td>CNAME</td>
+<td>music-tw-vks-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>mycard</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.244" class="text-dark">147.92.191.244</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>mycustomer-crm.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>mypage-mobile</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.176" class="text-dark">147.92.184.176</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>naro-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.231.107" class="text-dark">10.113.231.107</a></strong>
+</td>
+</tr>
+<tr>
+<td>naro-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.230.219" class="text-dark">10.113.230.219</a></strong>
+</td>
+</tr>
+<tr>
+<td>naro.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.128.109" class="text-dark">10.118.128.109</a></strong>
+</td>
+</tr>
+<tr>
+<td>news</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.240" class="text-dark">147.92.243.240</a></strong>
+</td>
+</tr>
+<tr>
+<td>nft</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>nft-biz</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.226" class="text-dark">147.92.242.226</a></strong>
+</td>
+</tr>
+<tr>
+<td>nft-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>nft-lp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.52" class="text-dark">147.92.242.52</a></strong>
+</td>
+</tr>
+<tr>
+<td>notice</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.86" class="text-dark">147.92.191.86</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>notice-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.86" class="text-dark">147.92.191.86</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>notice2</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.40" class="text-dark">147.92.191.40</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>notice2-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.40" class="text-dark">147.92.191.40</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>notify-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.65" class="text-dark">147.92.242.65</a></strong>
+</td>
+</tr>
+<tr>
+<td>notify-bot</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.173" class="text-dark">147.92.240.173</a></strong>
+</td>
+</tr>
+<tr>
+<td>novel</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>now-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>ny2023</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.99" class="text-dark">147.92.242.99</a></strong>
+</td>
+</tr>
+<tr>
+<td>o1.contact</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/149.72.64.215" class="text-dark">149.72.64.215</a></strong>
+</td>
+</tr>
+<tr>
+<td>o1.ptr7301.mobile</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/149.72.42.169" class="text-dark">149.72.42.169</a></strong>
+</td>
+</tr>
+<tr>
+<td>o2.ptr2563.mobile</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/167.89.89.148" class="text-dark">167.89.89.148</a></strong>
+</td>
+</tr>
+<tr>
+<td>o3.ptr5625.mobile</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/168.245.42.17" class="text-dark">168.245.42.17</a></strong>
+</td>
+</tr>
+<tr>
+<td>oa.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.47" class="text-dark">147.92.184.47</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>official-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>official-blog-en</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>official-blog-id</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>official-blog-ja</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>official-blog-tw</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>openchat</td>
+<td>CNAME</td>
+<td>w.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>openchat-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>openchat-jp</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>openchat-summarization.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>optout-api.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.107" class="text-dark">147.92.146.107</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>optout.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.110" class="text-dark">147.92.146.110</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>optrecru.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.50" class="text-dark">147.92.241.50</a></strong>
+</td>
+</tr>
+<tr>
+<td>order-mobile</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.51" class="text-dark">147.92.184.51</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>org-linevoom</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.94" class="text-dark">147.92.240.94</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>org-provider</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.211" class="text-dark">147.92.243.211</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>org-timeline</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.94" class="text-dark">147.92.240.94</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>org-w</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.108" class="text-dark">147.92.241.108</a></strong>
+</td>
+</tr>
+<tr>
+<td>org-w2</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.108" class="text-dark">147.92.241.108</a></strong>
+</td>
+</tr>
+<tr>
+<td>osa-a</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.249.146" class="text-dark">147.92.249.146</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>page</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.63" class="text-dark">147.92.146.63</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>page-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.225" class="text-dark">147.92.240.225</a></strong>
+</td>
+</tr>
+<tr>
+<td>page-share</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.123" class="text-dark">147.92.241.123</a></strong>
+</td>
+</tr>
+<tr>
+<td>page.timeline</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.129.15" class="text-dark">10.118.129.15</a></strong>
+</td>
+</tr>
+<tr>
+<td>page.timeline</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.230.16" class="text-dark">10.118.230.16</a></strong>
+</td>
+</tr>
+<tr>
+<td>partner</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.72" class="text-dark">147.92.241.72</a></strong>
+</td>
+</tr>
+<tr>
+<td>partner-conversion-api.tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.133" class="text-dark">147.92.243.133</a></strong>
+</td>
+</tr>
+<tr>
+<td>partner-dev</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.156.154" class="text-dark">10.113.156.154</a></strong>
+</td>
+</tr>
+<tr>
+<td>partners</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.72" class="text-dark">147.92.241.72</a></strong>
+</td>
+</tr>
+<tr>
+<td>partners-dev</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.156.154" class="text-dark">10.113.156.154</a></strong>
+</td>
+</tr>
+<tr>
+<td>pasutakann.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.25" class="text-dark">147.92.224.25</a></strong>
+</td>
+</tr>
+<tr>
+<td>pay-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>pay-campaign-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.52" class="text-dark">147.92.224.52</a></strong>
+</td>
+</tr>
+<tr>
+<td>pay-campaign-web</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.50" class="text-dark">147.92.224.50</a></strong>
+</td>
+</tr>
+<tr>
+<td>pay-merchant-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>payment</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.190" class="text-dark">147.92.242.190</a></strong>
+</td>
+</tr>
+<tr>
+<td>payshop</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>payshop-web</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>payxoa</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>payxoa-web</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.242" class="text-dark">125.209.210.242</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pazfre-blog</td>
+<td>CNAME</td>
+<td>blog-01.livedoor.jp</td>
+</tr>
+<tr>
+<td>place</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.12" class="text-dark">147.92.191.12</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+<div class="tag">self-signed</div>
+</td>
+</tr>
+<tr>
+<td>place</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>place-app</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.12" class="text-dark">147.92.191.12</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+<div class="tag">self-signed</div>
+</td>
+</tr>
+<tr>
+<td>place-blog</td>
+<td>CNAME</td>
+<td>place.line.me</td>
+</tr>
+<tr>
+<td>planner</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.48" class="text-dark">147.92.224.48</a></strong>
+</td>
+</tr>
+<tr>
+<td>play</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.238.178" class="text-dark">125.209.238.178</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>play.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>plus</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>pockeobiz</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod-api-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.117.82" class="text-dark">10.233.117.82</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod-cp.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pod-mobile-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.231.211.223" class="text-dark">10.231.211.223</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod-mobile.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.207" class="text-dark">147.92.144.207</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pod-orig.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.155" class="text-dark">147.92.242.155</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod-payment-orig.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.148" class="text-dark">125.209.210.148</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pod-payment-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.189" class="text-dark">147.92.144.189</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod-payment-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.192" class="text-dark">147.92.144.192</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.139" class="text-dark">147.92.144.139</a></strong>
+</td>
+</tr>
+<tr>
+<td>pod.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.155" class="text-dark">147.92.242.155</a></strong>
+</td>
+</tr>
+<tr>
+<td>podth.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.138" class="text-dark">147.92.144.138</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pointclub</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/203.104.138.200" class="text-dark">203.104.138.200</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>points</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.166" class="text-dark">147.92.242.166</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pokekure.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>poko.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.50" class="text-dark">147.92.241.50</a></strong>
+</td>
+</tr>
+<tr>
+<td>pokopangtown.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pokopoko.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>poll</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.123.200.55" class="text-dark">10.123.200.55</a></strong>
+</td>
+</tr>
+<tr>
+<td>pop2.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>pr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>present-sdbx</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.22.15.64" class="text-dark">10.22.15.64</a></strong>
+</td>
+</tr>
+<tr>
+<td>preview-game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.123.193.192" class="text-dark">10.123.193.192</a></strong>
+</td>
+</tr>
+<tr>
+<td>profilestudio</td>
+<td>CNAME</td>
+<td>prd-real.default.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>promotion-api-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.231.172" class="text-dark">10.113.231.172</a></strong>
+</td>
+</tr>
+<tr>
+<td>promotion-api-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.231.230" class="text-dark">10.113.231.230</a></strong>
+</td>
+</tr>
+<tr>
+<td>promotion-api.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.128.71" class="text-dark">10.118.128.71</a></strong>
+</td>
+</tr>
+<tr>
+<td>promotion-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.230.220" class="text-dark">10.113.230.220</a></strong>
+</td>
+</tr>
+<tr>
+<td>promotion-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.113.191.232" class="text-dark">10.113.191.232</a></strong>
+</td>
+</tr>
+<tr>
+<td>promotion.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.128.71" class="text-dark">10.118.128.71</a></strong>
+</td>
+</tr>
+<tr>
+<td>protostar</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>provider</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>proxy-sdbx</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.174" class="text-dark">147.92.191.174</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span><span class="tag bg-primary">11000</span></span>
+</td>
+</tr>
+<tr>
+<td>qr-official</td>
+<td>CNAME</td>
+<td>prd-real.default.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>qrcodepay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.22" class="text-dark">147.92.224.22</a></strong>
+</td>
+</tr>
+<tr>
+<td>quaty.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.248.65" class="text-dark">147.92.248.65</a></strong>
+</td>
+</tr>
+<tr>
+<td>quaty.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.248.66" class="text-dark">147.92.248.66</a></strong>
+</td>
+</tr>
+<tr>
+<td>rabbitlinepay-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.137" class="text-dark">147.92.191.137</a></strong><span class="ports"><span class="tag bg-primary">80</span></span>
+</td>
+</tr>
+<tr>
+<td>rangers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.144" class="text-dark">125.209.210.144</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>rangers.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>rc-api-rangers</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/182.162.201.239" class="text-dark">182.162.201.239</a></strong>
+</td>
+</tr>
+<tr>
+<td>rcv-accept-mail</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.84" class="text-dark">147.92.146.84</a></strong><span class="ports"><span class="tag bg-primary">25</span></span>
+</td>
+</tr>
+<tr>
+<td>receipt</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.12" class="text-dark">147.92.191.12</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+<div class="tag">self-signed</div>
+</td>
+</tr>
+<tr>
+<td>receipt.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>reconquista.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.222.241" class="text-dark">125.209.222.241</a></strong>
+</td>
+</tr>
+<tr>
+<td>red</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.242" class="text-dark">147.92.144.242</a></strong>
+</td>
+</tr>
+<tr>
+<td>refund</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.174" class="text-dark">147.92.144.174</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>refund.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.76" class="text-dark">147.92.242.76</a></strong>
+</td>
+</tr>
+<tr>
+<td>research</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.79" class="text-dark">147.92.146.79</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>research-platform</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>research-tableau</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.27" class="text-dark">147.92.184.27</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>reservation</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.14" class="text-dark">147.92.184.14</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>reward</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.164" class="text-dark">147.92.240.164</a></strong>
+</td>
+</tr>
+<tr>
+<td>rssreader.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.133" class="text-dark">147.92.184.133</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>rt-ads</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.110" class="text-dark">147.92.184.110</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sales-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.26" class="text-dark">147.92.224.26</a></strong>
+</td>
+</tr>
+<tr>
+<td>sandbox-api-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.159.21" class="text-dark">147.92.159.21</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sandbox-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.159.135" class="text-dark">147.92.159.135</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sandbox-reservation</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.14" class="text-dark">147.92.184.14</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sandbox-web-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.159.21" class="text-dark">147.92.159.21</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>scan.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.96" class="text-dark">147.92.139.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>scc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.222.43" class="text-dark">125.209.222.43</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>scc-alpha</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/203.104.139.183" class="text-dark">203.104.139.183</a></strong>
+</td>
+</tr>
+<tr>
+<td>scdn</td>
+<td>CNAME</td>
+<td>cac-scdn.line.me.line-zero.akadns.net</td>
+</tr>
+<tr>
+<td>sch</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.160" class="text-dark">147.92.191.160</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>schedule</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.168" class="text-dark">147.92.146.168</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>schedule-web</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.247" class="text-dark">147.92.184.247</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>score</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.152.65" class="text-dark">147.92.152.65</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>search</td>
+<td>CNAME</td>
+<td>search.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>search-tapas</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/203.104.171.86" class="text-dark">203.104.171.86</a></strong>
+</td>
+</tr>
+<tr>
+<td>seed</td>
+<td>CNAME</td>
+<td>prd-real.default.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>sg-nvapis</td>
+<td>CNAME</td>
+<td>sg.apis.naver.com</td>
+</tr>
+<tr>
+<td>shop</td>
+<td>CNAME</td>
+<td>shop.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>shop-mall</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.117" class="text-dark">147.92.146.117</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>shop-report</td>
+<td>CNAME</td>
+<td>stickershop.line.me.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>shopping-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>shopping-th</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.143" class="text-dark">147.92.144.143</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sign-rehearsal.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.177" class="text-dark">125.209.210.177</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sign.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.247" class="text-dark">147.92.240.247</a></strong>
+</td>
+</tr>
+<tr>
+<td>social-plugins</td>
+<td>CNAME</td>
+<td>social-plugins.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>spot</td>
+<td>CNAME</td>
+<td>spot-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>square-api</td>
+<td>CNAME</td>
+<td>w.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>stage</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.210.132" class="text-dark">125.209.210.132</a></strong>
+</td>
+</tr>
+<tr>
+<td>stage.dict</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.234.195" class="text-dark">125.209.234.195</a></strong>
+</td>
+</tr>
+<tr>
+<td>staging-z</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.250" class="text-dark">147.92.184.250</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>starbuckscard</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.19" class="text-dark">147.92.191.19</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sticker-channel-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.106" class="text-dark">147.92.146.106</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sticker-channel-option</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.106" class="text-dark">147.92.146.106</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sticker-contest</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.238.80" class="text-dark">125.209.238.80</a></strong>
+</td>
+</tr>
+<tr>
+<td>stickers-contest</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.171" class="text-dark">147.92.242.171</a></strong>
+</td>
+</tr>
+<tr>
+<td>stickers-on-kiosk</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.106" class="text-dark">147.92.146.106</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>stickershop</td>
+<td>CNAME</td>
+<td>stickershop.line.me.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>store</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.78" class="text-dark">147.92.242.78</a></strong>
+</td>
+</tr>
+<tr>
+<td>store-alpha-bill</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/182.162.201.95" class="text-dark">182.162.201.95</a></strong>
+</td>
+</tr>
+<tr>
+<td>store-bill</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.233" class="text-dark">147.92.191.233</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>store-rc</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.220" class="text-dark">147.92.144.220</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>store-rc-bill</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.233" class="text-dark">147.92.243.233</a></strong>
+</td>
+</tr>
+<tr>
+<td>studyroom</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.68" class="text-dark">147.92.184.68</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>sukimani</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.107" class="text-dark">147.92.184.107</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>survey-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>talk-care</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>talkconsult</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.144.206" class="text-dark">147.92.144.206</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>tantan.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.50" class="text-dark">147.92.241.50</a></strong>
+</td>
+</tr>
+<tr>
+<td>tdlp.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.219.37" class="text-dark">125.209.219.37</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>techpulse</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.39" class="text-dark">147.92.240.39</a></strong>
+</td>
+</tr>
+<tr>
+<td>teller-mag</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>tenpo-keiri</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>terms</td>
+<td>CNAME</td>
+<td>terms.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>terms-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.115" class="text-dark">147.92.191.115</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>terms2</td>
+<td>CNAME</td>
+<td>im.terms2.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>terms2-o</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.231" class="text-dark">147.92.191.231</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>test-api.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.96" class="text-dark">147.92.139.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>th-recruitment</td>
+<td>CNAME</td>
+<td>prd-real.default.verda2.akadns.net</td>
+</tr>
+<tr>
+<td>themeshop</td>
+<td>CNAME</td>
+<td>stickershop.line.me.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>themeshop-liff-v2-release.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>ticket</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>ticket-blog</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>ticket-mypage</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>ticket-st</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>timeline</td>
+<td>CNAME</td>
+<td>cac-timeline.line.me.line-zero.akadns.net</td>
+</tr>
+<tr>
+<td>timeline-creator</td>
+<td>CNAME</td>
+<td>timeline-creator.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>today</td>
+<td>CNAME</td>
+<td>today.line.me.edgekey.net</td>
+</tr>
+<tr>
+<td>todayshowcase</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.200" class="text-dark">147.92.243.200</a></strong>
+</td>
+</tr>
+<tr>
+<td>tower.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>tr</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.92" class="text-dark">147.92.191.92</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>trackit-sandbox.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.123.200.182" class="text-dark">10.123.200.182</a></strong>
+</td>
+</tr>
+<tr>
+<td>trackit-staging.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.117.171" class="text-dark">10.233.117.171</a></strong>
+</td>
+</tr>
+<tr>
+<td>trackit.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.233.117.173" class="text-dark">10.233.117.173</a></strong>
+</td>
+</tr>
+<tr>
+<td>transfer-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.189" class="text-dark">147.92.191.189</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>travel</td>
+<td>CNAME</td>
+<td>production-ingress-public.line-apps.com</td>
+</tr>
+<tr>
+<td>travel-mgm</td>
+<td>CNAME</td>
+<td>nucleo-apps-jp2.line-apps.com</td>
+</tr>
+<tr>
+<td>trial-tw-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/182.162.198.62" class="text-dark">182.162.198.62</a></strong>
+</td>
+</tr>
+<tr>
+<td>trident-admin.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/10.118.128.94" class="text-dark">10.118.128.94</a></strong>
+</td>
+</tr>
+<tr>
+<td>tsubakiyacoffee.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>tsumtsum-rc.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>tsumtsum.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>ttrc.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>ttstadium.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.137" class="text-dark">147.92.146.137</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>twsticker-review-2022.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>twsticker-review-2023.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>tyo-a</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.209" class="text-dark">147.92.146.209</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>tyo-a</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.151" class="text-dark">147.92.184.151</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>u</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.166" class="text-dark">147.92.146.166</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>uit-event-bot</td>
+<td>CNAME</td>
+<td>nucleo-apps-jp2.line-apps.com</td>
+</tr>
+<tr>
+<td>upphoto-public</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/175.158.1.67" class="text-dark">175.158.1.67</a></strong>
+</td>
+</tr>
+<tr>
+<td>us-nvapis</td>
+<td>CNAME</td>
+<td>us.apis.naver.com</td>
+</tr>
+<tr>
+<td>usw-nvapis</td>
+<td>CNAME</td>
+<td>usw.apis.naver.com</td>
+</tr>
+<tr>
+<td>utility-charge-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.37" class="text-dark">147.92.224.37</a></strong>
+</td>
+</tr>
+<tr>
+<td>utility-charge-sftp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.38" class="text-dark">147.92.224.38</a></strong>
+</td>
+</tr>
+<tr>
+<td>viewing.live</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.187" class="text-dark">147.92.241.187</a></strong>
+</td>
+</tr>
+<tr>
+<td>virtual.mail.game</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/125.209.244.46" class="text-dark">125.209.244.46</a></strong><span class="ports"><span class="tag bg-primary">25</span></span>
+</td>
+</tr>
+<tr>
+<td>voom-creators</td>
+<td>CNAME</td>
+<td>voom-creators.line.me.edgesuite.net</td>
+</tr>
+<tr>
+<td>voom-event-tl-event.landpress</td>
+<td>CNAME</td>
+<td>landpress-common.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>w</td>
+<td>CNAME</td>
+<td>w.line.me.akadns.net</td>
+</tr>
+<tr>
+<td>w-jp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.126" class="text-dark">147.92.191.126</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-coupon</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.78" class="text-dark">147.92.191.78</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-coupon-api-thailand</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.211" class="text-dark">147.92.191.211</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-coupon-ogp</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.147" class="text-dark">147.92.191.147</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-mycard-gw-tpoint</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.253" class="text-dark">147.92.191.253</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-mycards-gw-gift-card-store</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.27" class="text-dark">147.92.242.27</a></strong>
+</td>
+</tr>
+<tr>
+<td>wallet-mycards-gw-googleplay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.143" class="text-dark">147.92.191.143</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-mycards-gw-tpoint</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.253" class="text-dark">147.92.191.253</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet-mycards-web</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.191.180" class="text-dark">147.92.191.180</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>wallet.blockchain</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.139.75" class="text-dark">147.92.139.75</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>washokusato.pockeo</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.96" class="text-dark">147.92.241.96</a></strong>
+</td>
+</tr>
+<tr>
+<td>web-api-oaplus</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.7" class="text-dark">147.92.184.7</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>web-ec</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.243.214" class="text-dark">147.92.243.214</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>web-oaplus</td>
+<td>CNAME</td>
+<td>common-sni.line-apps.com.akadns.net</td>
+</tr>
+<tr>
+<td>web-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.10" class="text-dark">147.92.224.10</a></strong>
+</td>
+</tr>
+<tr>
+<td>web-tw-pay</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.234" class="text-dark">147.92.184.234</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>webpos</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.224.22" class="text-dark">147.92.224.22</a></strong>
+</td>
+</tr>
+<tr>
+<td>wow</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.241.178" class="text-dark">147.92.241.178</a></strong>
+</td>
+</tr>
+<tr>
+<td>www</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.146.166" class="text-dark">147.92.146.166</a></strong><span class="ports"><span class="tag bg-primary">80</span><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>xcdn-us</td>
+<td>CNAME</td>
+<td>xcdn-us.line-apps.com</td>
+</tr>
+<tr>
+<td>z</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.184.195" class="text-dark">147.92.184.195</a></strong><span class="ports"><span class="tag bg-primary">443</span></span>
+</td>
+</tr>
+<tr>
+<td>zap-api</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.60" class="text-dark">147.92.240.60</a></strong>
+</td>
+</tr>
+<tr>
+<td>zap-api-staging</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.240.78" class="text-dark">147.92.240.78</a></strong>
+</td>
+</tr>
+<tr>
+<td>zlegy</td>
+<td>A</td>
+<td><strong><a href="https://www.shodan.io/host/147.92.242.151" class="text-dark">147.92.242.151</a></strong>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="three columns">
+<div class="card card-padding card-purple">
+<h1><svg class="svg-inline--fa fa-tasks fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="far" data-icon="tasks" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M496 232H208a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h288a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zm0 160H208a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h288a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zm0-320H208a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h288a16 16 0 0 0 16-16V88a16 16 0 0 0-16-16zM64.3 368C38 368 16 389.5 16 416s22 48 48.3 48a48 48 0 0 0 0-96zm75.26-172.51a12.09 12.09 0 0 0-17 0l-63.66 63.3-22.68-21.94a12 12 0 0 0-17 0L3.53 252.43a11.86 11.86 0 0 0 0 16.89L51 316.51a12.82 12.82 0 0 0 17.58 0l15.7-15.59 72.17-71.74a11.86 11.86 0 0 0 .1-16.8zm0-160a12 12 0 0 0-17 0L58.91 98.65 36.22 76.58a12.07 12.07 0 0 0-17 0L3.53 92.26a11.93 11.93 0 0 0 0 16.95l47.57 47.28a12.79 12.79 0 0 0 17.6 0l15.59-15.58 72.17-72a12.05 12.05 0 0 0 .1-17z"></path></svg><!-- <i class="far fa-tasks  fa-fw "></i> Font Awesome fontawesome.com --> Additional<em>Insights</em>
+</h1>
+<ul id="tags">
+<li>DMARC</li>
+<li><svg class="svg-inline--fa fa-facebook fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg><!-- <i class="fab fa-facebook  fa-fw "></i> Font Awesome fontawesome.com --> Facebook verified
+</li>
+<li><svg class="svg-inline--fa fa-google fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" data-fa-i2svg=""><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg><!-- <i class="fab fa-google  fa-fw "></i> Font Awesome fontawesome.com --> Google verified
+</li>
+<li>SPF</li>
+</ul>
+</div>
+<div class="card card-padding card-light-blue">
+<h1><svg class="svg-inline--fa fa-map-signs fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="far" data-icon="map-signs" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M441.37 192c8.49 0 16.62-4.21 22.63-11.72l43.31-54.14c6.25-7.81 6.25-20.47 0-28.29L464 43.71C458 36.21 449.86 32 441.37 32H280V16c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v16H56c-13.25 0-24 13.43-24 30v100c0 16.57 10.75 30 24 30h176v32H70.63C62.14 224 54 228.21 48 235.71L4.69 289.86c-6.25 7.81-6.25 20.47 0 28.29L48 372.28c6 7.5 14.14 11.72 22.63 11.72H232v112c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V384h176c13.25 0 24-13.43 24-30V254c0-16.57-10.75-30-24-30H280v-32h161.37zM432 336H80.44l-25.6-32 25.6-32H432v64zM80 80h351.56l25.6 32-25.6 32H80V80z"></path></svg><!-- <i class="far fa-map-signs  fa-fw "></i> Font Awesome fontawesome.com --><em>Subdomains</em>
+</h1>
+<ul id="subdomains">
+<li>20-21newyear.game</li>
+<li>2024-smb-club.landpress</li>
+<li>_dmarc</li>
+<li>a</li>
+<li>access</li>
+<li>access-auto</li>
+<li>access-dr</li>
+<li>access2</li>
+<li>account</li>
+<li>accountpage</li>
+<li>acrz-static.landpress</li>
+<li>admin-rangers</li>
+<li>admin-sdbx</li>
+<li>ads</li>
+<li>agecheck</li>
+<li>agecheck-beta</li>
+<li>agecheck-rc</li>
+<li>alertth</li>
+<li>alpha-ace</li>
+<li>alpha-lcs</li>
+<li>alpha-nc</li>
+<li>analytics-conomi</li>
+<li>api</li>
+<li>api-album-rc</li>
+<li>api-alpha-music</li>
+<li>api-cas</li>
+<li>api-clovanote</li>
+<li>api-data</li>
+<li>api-dr</li>
+<li>api-music</li>
+<li>api-pay</li>
+<li>api-reservation</li>
+<li>api-tapas</li>
+<li>api.blockchain</li>
+<li>api.today</li>
+<li>api2</li>
+<li>api2-pay</li>
+<li>app-api.blockchain</li>
+<li>app-cv</li>
+<li>app-explorer.blockchain</li>
+<li>app-manga</li>
+<li>appier-mobile</li>
+<li>apple-cv</li>
+<li>askme</li>
+<li>asttest.game</li>
+<li>at</li>
+<li>at-agency</li>
+<li>at-blog</li>
+<li>athens</li>
+<li>athens-stage</li>
+<li>audition</li>
+<li>baito</li>
+<li>baito-mag</li>
+<li>baito-mag-ja</li>
+<li>bank-open-api-web-pay</li>
+<li>batch-rangers</li>
+<li>bingo.game</li>
+<li>birthday-gift-tw</li>
+<li>bitmax-mag</li>
+<li>biz</li>
+<li>biz.line-research</li>
+<li>biz.research</li>
+<li>bjlinks.game</li>
+<li>blog</li>
+<li>blog-cms</li>
+<li>blog.clova</li>
+<li>bnms.game</li>
+<li>bridgepage.game</li>
+<li>brownfarm.game</li>
+<li>bubble2.game</li>
+<li>business.game</li>
+<li>buy</li>
+<li>buy-calendar</li>
+<li>buy-order-api</li>
+<li>buy-order-api-ec-sandbox</li>
+<li>buy-partner</li>
+<li>buy-partner-api</li>
+<li>ca.tr</li>
+<li>callback</li>
+<li>callback-rangers</li>
+<li>camera-official-blog</li>
+<li>campaign</li>
+<li>cc</li>
+<li>charmmy</li>
+<li>charmmy-api</li>
+<li>charmmy-rss</li>
+<li>charmmy-shortcut</li>
+<li>chef.game</li>
+<li>chirashi</li>
+<li>chocolat.game</li>
+<li>chodaifugo.game</li>
+<li>clova</li>
+<li>clova-blog</li>
+<li>clova-blog-ja</li>
+<li>clovanote</li>
+<li>clovavision</li>
+<li>clovavision-cms</li>
+<li>codelab</li>
+<li>community-admin-beta.game</li>
+<li>community-admin.game</li>
+<li>conomi</li>
+<li>console-internal.game</li>
+<li>contact</li>
+<li>contact-cc</li>
+<li>contact.pockeo</li>
+<li>content.landpress</li>
+<li>conversion-api.tr</li>
+<li>coupon</li>
+<li>creative</li>
+<li>creativelab-tips</li>
+<li>creator</li>
+<li>creator-mag</li>
+<li>creator-mag-ja</li>
+<li>creator-mag-th</li>
+<li>creator-mag-tw</li>
+<li>creator-manual</li>
+<li>creator-manual-en</li>
+<li>creator-manual-ja</li>
+<li>creator-manual-th</li>
+<li>creator-manual-tw</li>
+<li>crs-event</li>
+<li>crs-hometab-event</li>
+<li>crs-lp</li>
+<li>crs-opt-out</li>
+<li>cs-cb.clova</li>
+<li>cs-ocr.clova</li>
+<li>cube</li>
+<li>cube-origin</li>
+<li>d</li>
+<li>de-nvapis</li>
+<li>deal</li>
+<li>deals</li>
+<li>decostudio</li>
+<li>delima</li>
+<li>design</li>
+<li>designsystem</li>
+<li>destiny-child-blog</li>
+<li>dev.blockchain</li>
+<li>dev.dict</li>
+<li>dev.partner</li>
+<li>devday-2021.landpress</li>
+<li>devdocs</li>
+<li>developers</li>
+<li>developers-admin.game</li>
+<li>developers-origin</li>
+<li>developers.game</li>
+<li>dfm</li>
+<li>docs-music-analytics</li>
+<li>docs.blockchain</li>
+<li>doctor</li>
+<li>dona.pockeo</li>
+<li>dosi-jal.landpress</li>
+<li>dosi-jp.landpress</li>
+<li>dosiwallet-jp.landpress</li>
+<li>dpos-pay</li>
+<li>drpk.game</li>
+<li>duckyduck.pockeo</li>
+<li>ec</li>
+<li>ec-bot-web</li>
+<li>ecmall</li>
+<li>egp</li>
+<li>eiyu-ranbu.game</li>
+<li>emojipack.landpress</li>
+<li>entameoa-manual</li>
+<li>entry</li>
+<li>event</li>
+<li>event-pay</li>
+<li>event-web</li>
+<li>events</li>
+<li>explorer.blockchain</li>
+<li>fact-checker</li>
+<li>fapi-beta.play</li>
+<li>feed-api-reservation</li>
+<li>feedback</li>
+<li>feedback-request</li>
+<li>ffv.landpress</li>
+<li>fgw-jp-pay</li>
+<li>fgw-pay</li>
+<li>fgw-tw-pay</li>
+<li>form</li>
+<li>fortune</li>
+<li>fortune-mag</li>
+<li>fortune-manager</li>
+<li>fraud-alert.landpress</li>
+<li>friend-invitation</li>
+<li>friend-survey</li>
+<li>fweb-jp-pay</li>
+<li>fweb-th-pay</li>
+<li>fweb-tw-pay</li>
+<li>g-webapp-campaign-sandbox.game</li>
+<li>g-webapp-campaign-staging.game</li>
+<li>g-webapp-campaign.game</li>
+<li>game</li>
+<li>game-api</li>
+<li>game-api-dv</li>
+<li>game-api-nv</li>
+<li>game-api-sandbox</li>
+<li>game-api-sandbox-dv</li>
+<li>game-api-sandbox-nv</li>
+<li>game-api-staging</li>
+<li>game-api-staging-dv</li>
+<li>game-api-staging-nv</li>
+<li>game-blog</li>
+<li>game-community</li>
+<li>game-developers</li>
+<li>game-oa</li>
+<li>game-oa-simple-addition-ui</li>
+<li>game-oa-simple-addition-ui-sandbox</li>
+<li>game-oa-simple-addition-ui-staging</li>
+<li>game-portal</li>
+<li>game-portal-internal</li>
+<li>game-terms</li>
+<li>game-terms-sandbox</li>
+<li>game-terms-staging</li>
+<li>game-yoyaku</li>
+<li>gcld-alert-api-qa.game</li>
+<li>gcld-alert-api.game</li>
+<li>gcld-alert-dashboard-qa.game</li>
+<li>gcld-alert-dashboard.game</li>
+<li>gcld-alert-qa.game</li>
+<li>gcld-alert.game</li>
+<li>gcld-knife-qa.game</li>
+<li>gcld-knife-stg.game</li>
+<li>gcld-knife.game</li>
+<li>gdc-jp.game</li>
+<li>gdc-rehearsal.game</li>
+<li>getrich.game</li>
+<li>getrichtw.game</li>
+<li>gift</li>
+<li>gift-blog</li>
+<li>gift-blog-ja</li>
+<li>gift-shop-entry</li>
+<li>gift-shop-web</li>
+<li>giftshop</li>
+<li>giftshop-tw</li>
+<li>giftshop-tw-liff</li>
+<li>giftshop-tw-old</li>
+<li>global-nvapis</li>
+<li>glp-oa-auth</li>
+<li>ground</li>
+<li>growthy-analytics.game</li>
+<li>growthy-bigquery.game</li>
+<li>growthy-bip-chart.game</li>
+<li>guardians-blog</li>
+<li>guide</li>
+<li>gum.game</li>
+<li>gundamwars-blog</li>
+<li>hackth</li>
+<li>healthcare-blog</li>
+<li>hello-bt21.game</li>
+<li>help</li>
+<li>help-o</li>
+<li>help2</li>
+<li>help2-o</li>
+<li>help3rd</li>
+<li>hidakaya.pockeo</li>
+<li>hidakayaservice.pockeo</li>
+<li>home.game</li>
+<li>horoscope</li>
+<li>hr-blog</li>
+<li>hrcon</li>
+<li>hrcon-lp</li>
+<li>hub</li>
+<li>info.feedback</li>
+<li>info.line-research</li>
+<li>info.research</li>
+<li>instant.game</li>
+<li>integration-reservation</li>
+<li>invoice</li>
+<li>isomarusuisan.pockeo</li>
+<li>itemget.game</li>
+<li>itunes-card</li>
+<li>jp-nvapis</li>
+<li>jumputi-heroes-blog</li>
+<li>jumputi-heroes-blog-ja</li>
+<li>jumputi-oshimanga.game</li>
+<li>jumputi.game</li>
+<li>jyujyukarubi.pockeo</li>
+<li>kotegaeshi.pockeo</li>
+<li>kr-nvapis</li>
+<li>kushi-tanaka.pockeo</li>
+<li>lacore</li>
+<li>lan</li>
+<li>lan-click.tr</li>
+<li>lan-o</li>
+<li>lan3rd</li>
+<li>lan3rd-o</li>
+<li>lap-blog</li>
+<li>lap-click.tr</li>
+<li>lb.clova</li>
+<li>lbc</li>
+<li>lbw</li>
+<li>lbw-jp</li>
+<li>lcp-apis</li>
+<li>lcp-cas-external</li>
+<li>lcp-checkout</li>
+<li>lcp-logs</li>
+<li>lcs</li>
+<li>lg-cs</li>
+<li>lg10th-special.game</li>
+<li>lg10th.game</li>
+<li>lgurl</li>
+<li>life-assistant-api</li>
+<li>liff</li>
+<li>liff-ext</li>
+<li>liff-shortcut</li>
+<li>liff-subwindow</li>
+<li>line-biz-solutions-awards</li>
+<li>line-entry-blog</li>
+<li>line-melody</li>
+<li>line-research</li>
+<li>line-sec-info.landpress</li>
+<li>line-sec-support.landpress</li>
+<li>line-verified-resellers</li>
+<li>lineaiassistant.landpress</li>
+<li>linecarnavi-blog</li>
+<li>linedevth</li>
+<li>linegift</li>
+<li>lineit</li>
+<li>lineman</li>
+<li>linemobile-event.landpress</li>
+<li>lineout-refund</li>
+<li>linepay</li>
+<li>lineshoppingincubator.landpress</li>
+<li>linesupport.landpress</li>
+<li>linevoom</li>
+<li>linevoom-event.landpress</li>
+<li>list</li>
+<li>live</li>
+<li>live-refund</li>
+<li>livebuy</li>
+<li>log-rangers</li>
+<li>lotteria.pockeo</li>
+<li>lp.play</li>
+<li>lpg.game</li>
+<li>lps-editor-1294.landpress</li>
+<li>lps-editor-1600.landpress</li>
+<li>lps-editor-450.landpress</li>
+<li>lsp-tw</li>
+<li>lt-click.tr</li>
+<li>lucky-gacha.game</li>
+<li>lush-sandbox.game</li>
+<li>lush.game</li>
+<li>m-at-blog</li>
+<li>m-baito-mag</li>
+<li>m-botawards-blog</li>
+<li>m-camera-official-blog</li>
+<li>m-clova-blog</li>
+<li>m-creator-mag</li>
+<li>m-creator-manual</li>
+<li>m-fortune-mag</li>
+<li>m-gift-blog</li>
+<li>m-guardians-blog</li>
+<li>m-hr-blog</li>
+<li>m-manga-blog</li>
+<li>m-mobile-blog</li>
+<li>m-music-mag</li>
+<li>m-now-blog</li>
+<li>m-official-blog</li>
+<li>m-pazfre-blog</li>
+<li>m-research-platform</li>
+<li>m-survey-blog</li>
+<li>magiccoin.game</li>
+<li>mail.game</li>
+<li>makepositive.game</li>
+<li>mall</li>
+<li>mamaxlinepay</li>
+<li>man</li>
+<li>man-admin</li>
+<li>man-taxi-admin</li>
+<li>manga</li>
+<li>manga-blog</li>
+<li>manga-blog-ja</li>
+<li>manga-channel</li>
+<li>mart-tw-logistics-api</li>
+<li>mdn.game</li>
+<li>media</li>
+<li>melody</li>
+<li>melody-admin</li>
+<li>miniapp</li>
+<li>miniapp-ext</li>
+<li>mkt-tool.game</li>
+<li>mobile</li>
+<li>mobile-blog</li>
+<li>monary-provider</li>
+<li>monitoring.game</li>
+<li>monsterfarm.game</li>
+<li>music</li>
+<li>music-campaign</li>
+<li>music-jp</li>
+<li>music-jp-coupon</li>
+<li>music-mag</li>
+<li>music-refund</li>
+<li>music-tw</li>
+<li>mycard</li>
+<li>mycustomer-crm.landpress</li>
+<li>mypage-mobile</li>
+<li>naro-sandbox.game</li>
+<li>naro-staging.game</li>
+<li>naro.game</li>
+<li>news</li>
+<li>nft</li>
+<li>nft-biz</li>
+<li>nft-blog</li>
+<li>nft-lp</li>
+<li>notice</li>
+<li>notice-o</li>
+<li>notice2</li>
+<li>notice2-o</li>
+<li>notify-api</li>
+<li>notify-bot</li>
+<li>novel</li>
+<li>now-blog</li>
+<li>ny2023</li>
+<li>o1.contact</li>
+<li>o1.ptr7301.mobile</li>
+<li>o2.ptr2563.mobile</li>
+<li>o3.ptr5625.mobile</li>
+<li>oa.tr</li>
+<li>official-blog</li>
+<li>official-blog-en</li>
+<li>official-blog-id</li>
+<li>official-blog-ja</li>
+<li>official-blog-tw</li>
+<li>openchat</li>
+<li>openchat-blog</li>
+<li>openchat-jp</li>
+<li>openchat-summarization.landpress</li>
+<li>optout-api.tr</li>
+<li>optout.tr</li>
+<li>optrecru.game</li>
+<li>order-mobile</li>
+<li>org-linevoom</li>
+<li>org-provider</li>
+<li>org-timeline</li>
+<li>org-w</li>
+<li>org-w2</li>
+<li>osa-a</li>
+<li>page</li>
+<li>page-api</li>
+<li>page-share</li>
+<li>page.timeline</li>
+<li>partner</li>
+<li>partner-conversion-api.tr</li>
+<li>partner-dev</li>
+<li>partners</li>
+<li>partners-dev</li>
+<li>pasutakann.pockeo</li>
+<li>pay</li>
+<li>pay-blog</li>
+<li>pay-campaign-api</li>
+<li>pay-campaign-web</li>
+<li>pay-merchant-blog</li>
+<li>payment</li>
+<li>payshop</li>
+<li>payshop-web</li>
+<li>payxoa</li>
+<li>payxoa-web</li>
+<li>pazfre-blog</li>
+<li>place</li>
+<li>place-app</li>
+<li>place-blog</li>
+<li>planner</li>
+<li>play</li>
+<li>play.game</li>
+<li>plus</li>
+<li>pockeo</li>
+<li>pockeobiz</li>
+<li>pod-api-staging.game</li>
+<li>pod-cp.game</li>
+<li>pod-mobile-staging.game</li>
+<li>pod-mobile.game</li>
+<li>pod-orig.game</li>
+<li>pod-payment-orig.game</li>
+<li>pod-payment-sandbox.game</li>
+<li>pod-payment-staging.game</li>
+<li>pod-staging.game</li>
+<li>pod.game</li>
+<li>podth.game</li>
+<li>pointclub</li>
+<li>points</li>
+<li>pokekure.game</li>
+<li>poko.game</li>
+<li>pokopangtown.game</li>
+<li>pokopoko.game</li>
+<li>poll</li>
+<li>pop2.game</li>
+<li>pr</li>
+<li>present-sdbx</li>
+<li>preview-game</li>
+<li>profilestudio</li>
+<li>promotion-api-sandbox.game</li>
+<li>promotion-api-staging.game</li>
+<li>promotion-api.game</li>
+<li>promotion-sandbox.game</li>
+<li>promotion-staging.game</li>
+<li>promotion.game</li>
+<li>protostar</li>
+<li>provider</li>
+<li>proxy-sdbx</li>
+<li>qr-official</li>
+<li>qrcodepay</li>
+<li>quaty.game</li>
+<li>rabbitlinepay-blog</li>
+<li>rangers</li>
+<li>rangers.game</li>
+<li>rc-api-rangers</li>
+<li>rcv-accept-mail</li>
+<li>receipt</li>
+<li>receipt.landpress</li>
+<li>reconquista.game</li>
+<li>red</li>
+<li>refund</li>
+<li>refund.game</li>
+<li>research</li>
+<li>research-platform</li>
+<li>research-tableau</li>
+<li>reservation</li>
+<li>reward</li>
+<li>rssreader.game</li>
+<li>rt-ads</li>
+<li>sales-pay</li>
+<li>sandbox-api-pay</li>
+<li>sandbox-pay</li>
+<li>sandbox-reservation</li>
+<li>sandbox-web-pay</li>
+<li>scan.blockchain</li>
+<li>scc</li>
+<li>scc-alpha</li>
+<li>scdn</li>
+<li>sch</li>
+<li>schedule</li>
+<li>schedule-web</li>
+<li>score</li>
+<li>search</li>
+<li>search-tapas</li>
+<li>seed</li>
+<li>sg-nvapis</li>
+<li>shop</li>
+<li>shop-mall</li>
+<li>shop-report</li>
+<li>shopping-mag</li>
+<li>shopping-th</li>
+<li>sign-rehearsal.game</li>
+<li>sign.game</li>
+<li>social-plugins</li>
+<li>spot</li>
+<li>square-api</li>
+<li>stage</li>
+<li>stage.dict</li>
+<li>staging-z</li>
+<li>starbuckscard</li>
+<li>sticker-channel-api</li>
+<li>sticker-channel-option</li>
+<li>sticker-contest</li>
+<li>stickers-contest</li>
+<li>stickers-on-kiosk</li>
+<li>stickershop</li>
+<li>store</li>
+<li>store-alpha-bill</li>
+<li>store-bill</li>
+<li>store-rc</li>
+<li>store-rc-bill</li>
+<li>studyroom</li>
+<li>sukimani</li>
+<li>survey-blog</li>
+<li>talk-care</li>
+<li>talkconsult</li>
+<li>tantan.game</li>
+<li>tdlp.game</li>
+<li>techpulse</li>
+<li>teller-mag</li>
+<li>tenpo-keiri</li>
+<li>terms</li>
+<li>terms-o</li>
+<li>terms2</li>
+<li>terms2-o</li>
+<li>test-api.blockchain</li>
+<li>th-recruitment</li>
+<li>themeshop</li>
+<li>themeshop-liff-v2-release.landpress</li>
+<li>ticket</li>
+<li>ticket-blog</li>
+<li>ticket-mypage</li>
+<li>ticket-st</li>
+<li>timeline</li>
+<li>timeline-creator</li>
+<li>today</li>
+<li>todayshowcase</li>
+<li>tower.game</li>
+<li>tr</li>
+<li>trackit-sandbox.game</li>
+<li>trackit-staging.game</li>
+<li>trackit.game</li>
+<li>transfer-pay</li>
+<li>travel</li>
+<li>travel-mgm</li>
+<li>trial-tw-pay</li>
+<li>trident-admin.game</li>
+<li>tsubakiyacoffee.pockeo</li>
+<li>tsumtsum-rc.game</li>
+<li>tsumtsum.game</li>
+<li>ttrc.game</li>
+<li>ttstadium.game</li>
+<li>twsticker-review-2022.landpress</li>
+<li>twsticker-review-2023.landpress</li>
+<li>tyo-a</li>
+<li>u</li>
+<li>uit-event-bot</li>
+<li>upphoto-public</li>
+<li>us-nvapis</li>
+<li>usw-nvapis</li>
+<li>utility-charge-pay</li>
+<li>utility-charge-sftp</li>
+<li>viewing.live</li>
+<li>virtual.mail.game</li>
+<li>voom-creators</li>
+<li>voom-event-tl-event.landpress</li>
+<li>w</li>
+<li>w-jp</li>
+<li>wallet-coupon</li>
+<li>wallet-coupon-api-thailand</li>
+<li>wallet-coupon-ogp</li>
+<li>wallet-mycard-gw-tpoint</li>
+<li>wallet-mycards-gw-gift-card-store</li>
+<li>wallet-mycards-gw-googleplay</li>
+<li>wallet-mycards-gw-tpoint</li>
+<li>wallet-mycards-web</li>
+<li>wallet.blockchain</li>
+<li>washokusato.pockeo</li>
+<li>web-api-oaplus</li>
+<li>web-ec</li>
+<li>web-oaplus</li>
+<li>web-pay</li>
+<li>web-tw-pay</li>
+<li>webpos</li>
+<li>wow</li>
+<li>www</li>
+<li>xcdn-us</li>
+<li>z</li>
+<li>zap-api</li>
+<li>zap-api-staging</li>
+<li>zlegy</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="container u-full-width bg-solid"><br><br>
+<div class="container">
+<div class="row">
+<div class="three columns">
+<h6 class="grid-heading">Products</h6>
+<ul>
+<li><a href="https://monitor.shodan.io/" class="light">Monitor</a>
+</li>
+<li><a href="https://beta.shodan.io/" class="light">Search Engine</a>
+</li>
+<li><a href="https://developer.shodan.io/" class="light">Developer API</a>
+</li>
+<li><a href="https://maps.shodan.io/" class="light">Maps</a>
+</li>
+</ul>
+</div>
+<div class="three columns">
+<h6 style="visibility:hidden" class="grid-heading">&nbsp;</h6>
+<ul>
+<li><a href="https://enterprise.shodan.io/" class="light">Bulk Data</a>
+</li>
+<li><a href="https://images.shodan.io/" class="light">Images</a>
+</li>
+<li><a href="https://snippets.shodan.io/" class="light">Snippets</a>
+</li>
+</ul>
+</div>
+<div class="three columns">
+<h6 class="grid-heading">Pricing</h6>
+<ul>
+<li><a href="https://www.shodan.io/store/member" class="light">Membership</a>
+</li>
+<li><a href="https://developer.shodan.io/pricing" class="light">API Subscriptions</a>
+</li>
+<li><a href="https://enterprise.shodan.io/" class="light">Enterprise</a>
+</li>
+</ul>
+</div>
+<div class="three columns">
+<h6 class="grid-heading">Contact Us</h6>
+<ul>
+<li><a href="mailto:support@shodan.io" class="light">support@shodan.io</a>
+</li>
+<li>
+<h5><a href="https://www.linkedin.com/company/shodan" aria-label="Linkedin" data-balloon-disable="data-balloon-disable" class="text-secondary"><svg class="svg-inline--fa fa-linkedin fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-linkedin   "></i> Font Awesome fontawesome.com --></a>&nbsp;&nbsp;<a href="https://mastodon.shodan.io/@shodan" aria-label="Mastodon" data-balloon-disable="data-balloon-disable" class="text-secondary"><svg class="svg-inline--fa fa-mastodon fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="mastodon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"></path></svg><!-- <i class="fab fa-mastodon   "></i> Font Awesome fontawesome.com --></a>&nbsp;&nbsp;<a href="https://twitter.com/shodanhq" aria-label="Twitter" data-balloon-disable="data-balloon-disable" class="text-secondary"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter   "></i> Font Awesome fontawesome.com --></a>&nbsp;&nbsp;<a href="https://www.facebook.com/shodan.io" aria-label="Facebook" data-balloon-disable="data-balloon-disable" class="text-secondary"><svg class="svg-inline--fa fa-facebook fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg><!-- <i class="fab fa-facebook   "></i> Font Awesome fontawesome.com --></a>
+</h5>
+</li>
+</ul>
+<p class="light">Shodan ® - All rights reserved</p>
+</div>
+</div>
+</div>
+</div>
+<script src="./Shodan Search Engine_files/main-cc86c694.js.download"></script>
+<script src="./Shodan Search Engine_files/trianglify.min-2020133e.js.download"></script>
+<script>(function() {
+    $elm = document.getElementById('abstract-bg');
+    generateTrianglify($elm, "line.me");
+})();
+</script>
+
+</body></html>
